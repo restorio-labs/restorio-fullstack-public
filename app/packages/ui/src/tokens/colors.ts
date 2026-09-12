@@ -1,0 +1,186 @@
+export const colorTokens = {
+  light: {
+    background: {
+      primary: "#ffffff",
+      secondary: "#f8f9fa",
+      tertiary: "#f1f3fc",
+      inverse: "#0a0e14",
+    },
+    surface: {
+      primary: "#ffffff",
+      secondary: "#f8f9fa",
+      elevated: "#ffffff",
+      overlay: "rgba(0, 0, 0, 0.5)",
+    },
+    border: {
+      default: "#e9ecef",
+      muted: "#f1f3f5",
+      strong: "#ced4da",
+      focus: "#0059cb",
+    },
+    text: {
+      primary: "#0a0e14",
+      secondary: "#51555c",
+      tertiary: "#72757d",
+      inverse: "#ffffff",
+      disabled: "#a8abb3",
+      error: "#d7383b",
+      success: "#006a60",
+      warning: "#fe6f42",
+      info: "#0059cb",
+    },
+    interactive: {
+      primary: "#0059cb",
+      primaryHover: "#002b6a",
+      primaryActive: "#002053",
+      primaryIcon: "#002053",
+      primaryForeground: "#ffffff",
+      secondary: "#51555c",
+      secondaryHover: "#44484f",
+      secondaryActive: "#1b2028",
+      secondaryForeground: "#0a0e14",
+      danger: "#ff716c",
+      dangerHover: "#d7383b",
+      dangerActive: "#9f0519",
+      dangerIcon: "#5c020e",
+      success: "#009688",
+      successHover: "#006a60",
+      successActive: "#004841",
+      accentTeal: "#85f6e5",
+      accentTealHover: "#6fe8dc",
+      accentTealActive: "#5cd9cc",
+      accentTealForeground: "#004841",
+      accentTealIcon: "#003329",
+      accentWarm: "#ff8762",
+      accentWarmHover: "#fe6f42",
+      accentWarmActive: "#e85a33",
+      accentWarmForeground: "#3d0b00",
+      accentWarmIcon: "#2a0800",
+      disabled: "#e9ecef",
+    },
+    status: {
+      error: {
+        background: "#ffa8a3",
+        border: "#ff716c",
+        text: "#9f0519",
+      },
+      success: {
+        background: "#dcfff8",
+        border: "#85f6e5",
+        text: "#006a60",
+      },
+      warning: {
+        background: "#ff9473",
+        border: "#ff8762",
+        text: "#3d0b00",
+      },
+      info: {
+        background: "#739eff",
+        border: "#89acff",
+        text: "#002053",
+      },
+      promoted: {
+        background: "#fbbf24",
+        border: "#d97706",
+        text: "#422006",
+      },
+    },
+  },
+  dark: {
+    background: {
+      primary: "#0a0e14",
+      secondary: "#0f141a",
+      tertiary: "#151a21",
+      inverse: "#f1f3fc",
+    },
+    surface: {
+      primary: "#151a21",
+      secondary: "#1b2028",
+      elevated: "#20262f",
+      overlay: "rgba(0, 0, 0, 0.7)",
+    },
+    border: {
+      default: "#44484f",
+      muted: "#262c36",
+      strong: "#72757d",
+      focus: "#89acff",
+    },
+    text: {
+      primary: "#f1f3fc",
+      secondary: "#a8abb3",
+      tertiary: "#72757d",
+      inverse: "#002b6a",
+      disabled: "#51555c",
+      error: "#ff716c",
+      success: "#85f6e5",
+      warning: "#ff8762",
+      info: "#89acff",
+    },
+    interactive: {
+      primary: "#89acff",
+      primaryHover: "#739eff",
+      primaryActive: "#5a90ff",
+      primaryIcon: "#002053",
+      primaryForeground: "#002b6a",
+      secondary: "#a8abb3",
+      secondaryHover: "#72757d",
+      secondaryActive: "#51555c",
+      secondaryForeground: "#f1f3fc",
+      danger: "#ff716c",
+      dangerHover: "#d7383b",
+      dangerActive: "#9f0519",
+      dangerIcon: "#5c020e",
+      success: "#85f6e5",
+      successHover: "#76e7d7",
+      successActive: "#006a60",
+      accentTeal: "#85f6e5",
+      accentTealHover: "#76e7d7",
+      accentTealActive: "#66d8c8",
+      accentTealForeground: "#006a60",
+      accentTealIcon: "#004841",
+      accentWarm: "#ff8762",
+      accentWarmHover: "#fe6f42",
+      accentWarmActive: "#f55d33",
+      accentWarmForeground: "#3d0b00",
+      accentWarmIcon: "#2a0800",
+      disabled: "#20262f",
+    },
+    status: {
+      error: {
+        background: "#9f0519",
+        border: "#ff716c",
+        text: "#ffa8a3",
+      },
+      success: {
+        background: "#006a60",
+        border: "#85f6e5",
+        text: "#dcfff8",
+      },
+      warning: {
+        background: "#fe6f42",
+        border: "#ff8762",
+        text: "#3d0b00",
+      },
+      info: {
+        background: "#002053",
+        border: "#89acff",
+        text: "#f1f3fc",
+      },
+      promoted: {
+        background: "#b45309",
+        border: "#fbbf24",
+        text: "#fffbeb",
+      },
+    },
+  },
+} as const;
+
+export type ColorTheme = keyof typeof colorTokens;
+
+export type ColorTokenPath = {
+  [K in ColorTheme]: {
+    [Category in keyof (typeof colorTokens)[K]]: {
+      [Token in keyof (typeof colorTokens)[K][Category]]: string;
+    };
+  };
+};

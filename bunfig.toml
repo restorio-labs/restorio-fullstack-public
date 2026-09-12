@@ -1,0 +1,3 @@
+[install]
+# Each package/app will install dependencies in their own node_modules
+# Workspace dependencies will still be linked, but external deps are local

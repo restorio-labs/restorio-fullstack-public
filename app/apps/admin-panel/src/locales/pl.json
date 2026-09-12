@@ -1,0 +1,840 @@
+{
+  "common": {
+    "skipToContent": "Przejdź do głównej treści",
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "actions": {
+      "save": "Zapisz",
+      "saving": "Zapisywanie...",
+      "delete": "Usuń",
+      "deleteSelected": "Usuń wybrane",
+      "goBack": "Wstecz",
+      "print": "Drukuj",
+      "printQr": "Drukuj kod QR"
+    }
+  },
+  "app": {
+    "title": "Panel Administratora Restorio",
+    "comingSoon": "Panel administracyjny już wkrótce...",
+    "description": "Zarządzaj operacjami swojej restauracji"
+  },
+  "errors": {
+    "rootElementNotFound": "Nie znaleziono elementu głównego"
+  },
+  "unsavedChanges": {
+    "title": "Niezapisane zmiany",
+    "message": "Masz niezapisane zmiany. Jeśli opuścisz tę stronę, zmiany zostaną utracone.",
+    "keepEditing": "Kontynuuj edycję",
+    "discard": "Odrzuć zmiany"
+  },
+  "sidebar": {
+    "ariaLabel": "Nawigacja panelu administratora",
+    "sections": {
+      "floorLayout": "Układ sali",
+      "menu": "Menu",
+      "tools": "Narzędzia",
+      "settings": "Ustawienia"
+    },
+    "items": {
+      "label": "Widok",
+      "adminPanel": "Panel administratora",
+      "kitchenPanel": "Panel kuchni",
+      "waiterPanel": "Panel kelnera",
+      "floorEditor": "Edytor układu sali",
+      "menuCreator": "Kreator menu",
+      "mobileConfiguration": "Konfiguracja mobilna",
+      "pageConfigurator": "Konfigurator strony",
+      "qrCodeGenerator": "Generator kodów QR",
+      "tenantProfile": "Profil lokalu",
+      "paymentConfig": "Konfiguracja płatności",
+      "transactions": "Transakcje",
+      "staff": "Personel"
+    },
+    "mobile": {
+      "openMenu": "Otwórz menu nawigacji",
+      "closeMenu": "Zamknij menu nawigacji"
+    },
+    "logoutLoading": "Wylogowywanie..."
+  },
+  "chooseApp": {
+    "title": "Jesteś zalogowany",
+    "subtitle": "Wybierz, dokąd chcesz przejść dalej.",
+    "labels": {
+      "adminPanel": "Panel administracyjny",
+      "kitchenPanel": "Panel kuchni",
+      "waiterPanel": "Panel kelnerski"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Język",
+    "options": {
+      "en": "Angielski",
+      "pl": "Polski"
+    }
+  },
+  "tenantSwitcher": {
+    "loadError": "Nie udało się wczytać restauracji.",
+    "loading": "Wczytywanie restauracji...",
+    "empty": "Brak dostępnych restauracji.",
+    "addRestaurant": "+ Dodaj nową restaurację",
+    "select": "Wybierz restaurację"
+  },
+  "floorEditor": {
+    "title": "Układ sali",
+    "loadingDescription": "Ładowanie...",
+    "loadingRestaurant": "Ładowanie restauracji...",
+    "noRestaurantDescription": "Nie wybrano restauracji",
+    "noRestaurantMessage": "Wybierz restaurację z panelu bocznego, aby edytować jej układ sali.",
+    "errorDescription": "Błąd",
+    "errorMessage": "Nie udało się wczytać restauracji. Spróbuj ponownie później.",
+    "emptyMessage": "Dla tej restauracji nie utworzono jeszcze układu sali. Utwórz go, aby rozpocząć projektowanie.",
+    "createButton": "Utwórz układ sali",
+    "creatingButton": "Tworzenie...",
+    "layoutTitle": "Sala: {{name}}",
+    "defaultCanvasName": "Sala 1",
+    "defaultCanvasNameBase": "Sala",
+    "saveSuccessTitle": "Układ zapisany",
+    "saveSuccessMessage": "Zmiany w układzie sali zostały zapisane.",
+    "saveErrorTitle": "Nie udało się zapisać",
+    "saveErrorMessage": "Nie można zapisać układu sali. Spróbuj ponownie.",
+    "renameSuccessTitle": "Zmieniono nazwę sali",
+    "renameSuccessMessage": "Nazwa sali została zaktualizowana.",
+    "renameErrorTitle": "Nie udało się zmienić nazwy",
+    "renameErrorMessage": "Nie można zmienić nazwy tej sali. Spróbuj ponownie.",
+    "renamingButton": "Zmienianie nazwy...",
+    "deleteSuccessTitle": "Sala usunięta",
+    "deleteSuccessMessage": "Sala została usunięta.",
+    "deleteErrorTitle": "Nie udało się usunąć",
+    "deleteErrorMessage": "Nie można usunąć tej sali. Spróbuj ponownie.",
+    "deletingButton": "Usuwanie...",
+    "deleteConfirm": {
+      "title": "Usunąć tę salę?",
+      "message": "To trwale usunie układ pomieszczenia „{{name}}”. Wpisz dokładnie tę nazwę, aby potwierdzić.",
+      "inputLabel": "Nazwa sali",
+      "cancel": "Anuluj",
+      "confirm": "Usuń salę"
+    },
+    "mobileUnavailableTitle": "Edytor układu sali niedostępny na telefonie",
+    "mobileUnavailableMessage": "Aby edytować układ sali w panelu administratora, użyj tabletu lub komputera.",
+    "floorSelector": {
+      "label": "Sala",
+      "addFloor": "Dodaj salę",
+      "renameLabel": "Nazwa sali",
+      "renameFloor": "Zmień nazwę sali",
+      "deleteFloor": "Usuń salę"
+    },
+    "toolbar": {
+      "undo": "Cofnij",
+      "redo": "Ponów",
+      "save": "Zapisz układ",
+      "add": "Dodaj",
+      "showGrid": "Pokaż siatkę"
+    },
+    "addMenu": {
+      "table": "Stolik",
+      "zone": "Strefę",
+      "bar": "Bar",
+      "wall": "Ścianę",
+      "entrance": "Wejście"
+    },
+    "panel": {
+      "title": "Dostosuj",
+      "layer": "Warstwa",
+      "bringToFront": "Przesuń na wierzch",
+      "sendToBack": "Przesuń na spód",
+      "forward": "Do przodu",
+      "backward": "Do tyłu",
+      "name": "Nazwa",
+      "color": "Kolor",
+      "seats": "Miejsca",
+      "move": "Przesuń",
+      "tableCustomLabel": "Etykieta stolika",
+      "label": "Etykieta",
+      "delete": "Usuń",
+      "deleteSelected": "Usuń zaznaczone",
+      "multiSelected": "Wybrano elementów: {{count}}.",
+      "multiSelectHint": "Tryb kontroli: tylko zaznaczanie i przesuwanie.",
+      "selectHint": "Wybierz element na płótnie, aby go dostosować."
+    },
+    "unsavedChanges": {
+      "title": "Nie zapisano zmian",
+      "message": "Masz niezapisane zmiany na tej sali. Jeśli przełączysz się teraz, zmiany zostaną utracone.",
+      "keepEditing": "Kontynuuj edycję",
+      "discard": "Odrzuć zmiany"
+    },
+    "aria": {
+      "resizeHandle": "Zmień rozmiar {{mode}}",
+      "setColor": "Ustaw kolor {{color}}"
+    },
+    "zoneName": "Strefa {{number}}",
+    "tableLabel": "Stolik {{number}}",
+    "tableGroupLabel": "Stoliki {{numbers}}"
+  },
+  "menuCreator": {
+    "title": "Kreator menu",
+    "description": "Twórz i zarządzaj kategoriami oraz pozycjami menu najemcy",
+    "loading": "Wczytywanie menu...",
+    "emptyState": "Brak kategorii. Dodaj pierwszą kategorię, aby rozpocząć tworzenie menu.",
+    "success": "Menu zostało zapisane.",
+    "actions": {
+      "save": "Zapisz menu",
+      "saving": "Zapisywanie...",
+      "addCategory": "Dodaj kategorię",
+      "removeCategory": "Usuń kategorię",
+      "moveCategoryUp": "Przesuń kategorię w górę",
+      "moveCategoryDown": "Przesuń kategorię w dół",
+      "addItem": "Dodaj pozycję",
+      "removeItem": "Usuń pozycję",
+      "addTag": "Dodaj tag",
+      "removeTag": "Usuń tag"
+    },
+    "fields": {
+      "categoryName": "Nazwa kategorii",
+      "categoryOrderControls": "Kolejność",
+      "itemName": "Nazwa pozycji",
+      "itemPrice": "Cena",
+      "itemActive": "Aktywna",
+      "itemPromoted": "Promowana",
+      "itemDescription": "Opis",
+      "itemTags": "Tagi",
+      "itemImage": "Zdjęcie",
+      "itemImageHint": "Kwadratowe lub prawie kwadratowe (PNG, JPEG lub WebP)."
+    },
+    "placeholders": {
+      "categoryName": "np. Przystawki",
+      "itemName": "np. Produkt {{index}}",
+      "itemDescription": "Opisz pozycję menu",
+      "itemTags": "Wpisz tag i kliknij +"
+    },
+    "errors": {
+      "selectRestaurant": "Najpierw wybierz restaurację z przełącznika tenantów.",
+      "saveFailed": "Nie udało się zapisać menu. Spróbuj ponownie.",
+      "invalidCategory": "Każda kategoria musi mieć poprawną nazwę.",
+      "invalidItem": "Każda pozycja musi mieć poprawną nazwę i nieujemną cenę."
+    },
+    "toast": {
+      "saveSuccessTitle": "Menu zapisane",
+      "saveErrorTitle": "Nie udało się zapisać menu",
+      "validationErrorTitle": "Sprawdź menu"
+    },
+    "imageUpload": {
+      "upload": "Prześlij zdjęcie",
+      "uploading": "Przesyłanie…",
+      "remove": "Usuń zdjęcie",
+      "invalidType": "Użyj PNG, JPEG lub WebP.",
+      "tooLarge": "Plik jest za duży.",
+      "failed": "Przesyłanie nie powiodło się."
+    }
+  },
+  "mobileConfiguration": {
+    "title": "Konfiguracja mobilna",
+    "description": "Tytuł, favicon, motyw i teksty strony startowej aplikacji mobilnej dla gości",
+    "loading": "Wczytywanie…",
+    "actions": {
+      "save": "Zapisz",
+      "saving": "Zapisywanie…",
+      "clear": "Wyczyść",
+      "chooseFile": "Wybierz plik"
+    },
+    "fields": {
+      "pageTitle": "Tytuł w przeglądarce",
+      "favicon": "Favicon (.ico)",
+      "backgroundColor": "Kolor tła",
+      "primaryButtonBackground": "Przycisk główny - tło",
+      "primaryButtonText": "Przycisk główny - kolor tekstu",
+      "secondaryButtonBackground": "Przycisk drugorzędny - tło",
+      "secondaryButtonText": "Przycisk drugorzędny - kolor tekstu",
+      "textPrimary": "Tekst - główny",
+      "textSecondary": "Tekst - drugorzędny",
+      "textTertiary": "Tekst - trzeci / przygaszony",
+      "borderDefault": "Obramowania - domyślne",
+      "surfacePrimary": "Powierzchnie - główne (karty, pola)",
+      "surfaceSecondary": "Powierzchnie - drugorzędne (sekcje)",
+      "promotedBadgeBackground": "Odznaka promocji - tło",
+      "promotedBadgeText": "Odznaka promocji - tekst",
+      "promotedBadgeBorder": "Odznaka promocji - obrys",
+      "googleFontUrl": "URL czcionki Google",
+      "landingHeadline": "Nagłówek strony startowej",
+      "landingSubtitle": "Podtytuł strony startowej",
+      "tablesCtaLabel": "Etykieta przycisku „Stoliki”",
+      "menuCtaLabel": "Etykieta przycisku „Menu”",
+      "openStatusLabel": "Etykieta wolnego stolika",
+      "closedStatusLabel": "Etykieta zajętego stolika",
+      "uiLocale": "Język aplikacji dla gościa",
+      "uiLocaleBrowserDefault": "Jak w przeglądarce gościa"
+    },
+    "placeholders": {
+      "pageTitle": "Puste = nazwa restauracji"
+    },
+    "hints": {
+      "pageTitle": "Widoczna w karcie przeglądarki i nagłówku.",
+      "favicon": "Tylko ICO. Dokładnie 16×16, 32×32, 64×64 lub 128×128 px.",
+      "faviconPreviewAlt": "Podgląd faviconu",
+      "faviconCurrent": "Favicon jest już ustawiony. Wyślij nowy plik, aby go zmienić.",
+      "faviconSelected": "Wybrano: {{name}}",
+      "backgroundColor": "Tło aplikacji gościa dla wybranego wyglądu (jasny lub ciemny).",
+      "themePersonalizationMode": "Zmiana przełącza podgląd na ten sam tryb, żeby od razu widzieć efekt. Goście nadal podążają za motywem urządzenia, o ile aplikacja nie wymusza trybu.",
+      "primaryButtonBackground": "Styl wypełniony dla głównych akcji w aplikacji gościa.",
+      "primaryButtonText": "Kolor tekstu i ikon na głównych przyciskach (wypełnionych).",
+      "secondaryButtonBackground": "Styl wypełniony dla akcji drugorzędnych.",
+      "secondaryButtonText": "Kolor tekstu na drugorzędnych przyciskach wypełnionych.",
+      "textPrimary": "Główny tekst treści i nagłówków.",
+      "textSecondary": "Tekst pomocniczy i opisy.",
+      "textTertiary": "Podpowiedzi, etykiety i elementy najsłabiej akcentowane.",
+      "borderDefault": "Domyślne obramowania i separatory między blokami.",
+      "surfacePrimary": "Panele, karty i główne obszary treści.",
+      "surfaceSecondary": "Sekcje i delikatne tła grupujące treść.",
+      "promotedBadgeBackground": "Tło etykiety przy promowanych pozycjach menu i zamówienia.",
+      "promotedBadgeText": "Kolor tekstu na odznace promocji.",
+      "promotedBadgeBorder": "Obramowanie odznaki dla lepszego kontrastu.",
+      "googleFontUrl": "Wklej pełny URL z Google Fonts.",
+      "googleFontUrlTooltip": "Wejdź na fonts.google.com, wybierz czcionkę i skopiuj URL do osadzenia.",
+      "uiLocale": "Po ustawieniu aplikacja gościa użyje tego języka dla wbudowanych tekstów (stoliki, nawigacja, etykiety systemowe). Zostaw „Jak w przeglądarce gościa”, aby podążać za językiem urządzenia."
+    },
+    "landingSection": {
+      "title": "Strona startowa i widoki gościa",
+      "hint": "Widoczne pod linkiem do lokalu zanim gość zeskanuje QR przy stoliku. Puste pola = domyślne teksty aplikacji."
+    },
+    "themeSection": {
+      "title": "Personalizacja motywu",
+      "editTargetLabel": "Dostosuj kolory dla",
+      "editLight": "Wersja jasna",
+      "editDark": "Wersja ciemna",
+      "primaryButton": "Przycisk główny",
+      "secondaryButton": "Przycisk drugorzędny",
+      "surfacesTextAndBorders": "Powierzchnie, tekst i obramowania",
+      "promotedBadge": "Odznaka promowanej pozycji"
+    },
+    "preview": {
+      "title": "Podgląd aplikacji gościa",
+      "hint": "Przykładowe ekrany; elementy są nieaktywne. Widoki stolików i zamówienia mają przykładową treść.",
+      "screenLabel": "Ekran",
+      "themeLabel": "Wygląd",
+      "screens": {
+        "landing": "Start",
+        "tables": "Stoliki i układ",
+        "menu": "Menu",
+        "order": "Zamówienie przy stoliku"
+      },
+      "theme": {
+        "light": "Jasny",
+        "dark": "Ciemny",
+        "system": "Jak w przeglądarce"
+      },
+      "defaultSubtitle": "Przejrzyj menu lub dostępność stolików zanim usiądziesz.",
+      "ctaTables": "Dostępność i układ stolików",
+      "ctaMenu": "Zobacz menu",
+      "navHome": "Start",
+      "navTables": "Stoliki",
+      "navMenu": "Menu",
+      "quickNavAria": "Szybka nawigacja",
+      "openStatusFallback": "Wolny",
+      "closedStatusFallback": "Zajęty",
+      "tables": {
+        "back": "Wstecz",
+        "subtitle": "Na żywo z planu sali",
+        "floorTitle": "Główna sala",
+        "listTitle": "Wszystkie stoliki",
+        "sampleOpen": "Stolik 4",
+        "sampleClosed": "Stolik 8"
+      },
+      "menu": {
+        "back": "Wstecz",
+        "subtitle": "Dania i ceny",
+        "category": "Polecane",
+        "promotedBadge": "Wybór szefa",
+        "item1Name": "Zupa dnia",
+        "item1Desc": "Warzywa sezonowe, pieczywo",
+        "item1Price": "18,00 PLN",
+        "item2Name": "Pstrąg z grilla",
+        "item2Price": "42,00 PLN"
+      },
+      "order": {
+        "tableCaption": "Stolik 3",
+        "cartButton": "Do kasy · 2 poz. · 60,00 PLN",
+        "summaryTitle": "Podsumowanie",
+        "category": "Polecane",
+        "item1Name": "Zupa dnia",
+        "item1Price": "18,00 PLN",
+        "item2Name": "Pstrąg z grilla",
+        "item2Price": "42,00 PLN",
+        "subtotalLabel": "Suma częściowa",
+        "subtotalPrice": "60,00 PLN",
+        "serviceLabel": "Opłata serwisowa",
+        "servicePrice": "3,00 PLN",
+        "totalLabel": "Razem",
+        "totalPrice": "63,00 PLN"
+      }
+    },
+    "copySection": {
+      "title": "Skopiuj motyw z innej restauracji",
+      "source": "Restauracja źródłowa",
+      "placeholder": "Wybierz…",
+      "copy": "Kopiuj motyw",
+      "copying": "Kopiowanie…"
+    },
+    "errors": {
+      "selectRestaurant": "Najpierw wybierz restaurację.",
+      "invalidGoogleFontUrl": "URL musi zaczynać się od https://fonts.googleapis.com/css",
+      "invalidFaviconType": "Favicon musi być typu ICO.",
+      "invalidFaviconExtension": "Rozszerzenie musi być .ico.",
+      "faviconUploadFailed": "Nie udało się przesłać faviconu."
+    },
+    "toast": {
+      "saveSuccessTitle": "Zapisano",
+      "saveSuccessBody": "Zaktualizowano konfigurację mobilną.",
+      "saveErrorTitle": "Błąd zapisu",
+      "saveErrorBody": "Nie udało się zapisać konfiguracji.",
+      "copySuccessTitle": "Skopiowano motyw",
+      "copySuccessBody": "Motyw został skopiowany z wybranej restauracji.",
+      "copyErrorTitle": "Błąd kopiowania",
+      "copyErrorBody": "Nie udało się skopiować motywu."
+    }
+  },
+  "menuConfigurator": {
+    "title": "Konfigurator strony",
+    "description": "Konfiguruj komponenty i układ stron restauracji",
+    "placeholderTitle": "Konfigurator strony menu",
+    "placeholderDescription": "Dostosuj sposób prezentacji menu klientom"
+  },
+  "payment": {
+    "title": "Konfiguracje płatności",
+    "description": "Skonfiguruj ustawienia operatora Przelewy24",
+    "errors": {
+      "loadRestaurants": "Nie udało się wczytać restauracji. Odśwież i spróbuj ponownie.",
+      "selectRestaurant": "Wybierz restaurację z rozwijanego menu w nagłówku.",
+      "updateFailed": "Nie udało się zaktualizować konfiguracji P24. Sprawdź identyfikator lokalu i spróbuj ponownie.",
+      "validationFailed": "Popraw zaznaczone pola i spróbuj ponownie."
+    },
+    "loadingRestaurants": "Wczytywanie restauracji...",
+    "fields": {
+      "merchantId": {
+        "label": "Identyfikator sprzedawcy",
+        "placeholder": "np. 123456",
+        "helper": "Identyfikator sprzedawcy Przelewy24 (maks. 6 cyfr)",
+        "error": "Identyfikator sprzedawcy musi być między 0 a 999999"
+      },
+      "apiKey": {
+        "label": "Klucz API P24",
+        "placeholder": "Wpisz klucz API Przelewy24",
+        "helper": "Dokładnie 32 znaki",
+        "error": "Klucz API jest wymagany i musi mieć dokładnie 32 znaki",
+        "show": "Pokaż klucz API",
+        "hide": "Ukryj klucz API"
+      },
+      "crcKey": {
+        "label": "Klucz CRC P24",
+        "placeholder": "Wpisz klucz CRC Przelewy24",
+        "helper": "Dokładnie 16 znaków",
+        "error": "Klucz CRC jest wymagany i musi mieć dokładnie 16 znaków",
+        "show": "Pokaż klucz CRC",
+        "hide": "Ukryj klucz CRC"
+      },
+      "p24Merchantid": {
+        "error": "Identyfikator sprzedawcy musi być między 0 a 999999"
+      },
+      "p24Api": {
+        "error": "Klucz API jest wymagany i musi mieć dokładnie 32 znaki"
+      },
+      "p24Crc": {
+        "error": "Klucz CRC jest wymagany i musi mieć dokładnie 16 znaków"
+      }
+    },
+    "success": "Konfiguracja P24 została zaktualizowana.",
+    "actions": {
+      "save": "Zapisz konfigurację",
+      "saving": "Zapisywanie..."
+    }
+  },
+  "transactions": {
+    "title": "Lista transakcji",
+    "description": "Podgląd transakcji dla wybranej restauracji",
+    "list": {
+      "title": "Transakcje od najnowszych",
+      "loading": "Ładowanie transakcji...",
+      "selectTenant": "Wybierz restaurację, aby wyświetlić transakcje.",
+      "error": "Nie udało się pobrać transakcji. Spróbuj ponownie.",
+      "empty": "Brak transakcji dla wybranej restauracji.",
+      "paginationSummary": "Strona {{page}} z {{pages}} · {{total}} transakcji",
+      "previous": "Poprzednia",
+      "next": "Następna"
+    },
+    "fields": {
+      "status": "Status",
+      "orderId": "ID zamówienia P24",
+      "note": "Notatka"
+    },
+    "status": {
+      "0": "Nieopłacona",
+      "1": "Niezaksięgowana",
+      "2": "Płatność przyjęta",
+      "3": "Zwrócona",
+      "unknown": "Nieznany"
+    }
+  },
+  "qrGenerator": {
+    "title": "Generator kodów QR",
+    "description": "Generuj kody QR kierujące klientów do menu",
+    "loadingRestaurant": "Wczytywanie restauracji...",
+    "loadError": "Nie udało się wczytać restauracji. Spróbuj ponownie później.",
+    "selectRestaurant": "Wybierz restaurację z panelu bocznego, aby wygenerować jej kod QR.",
+    "loadTenantError": "Nie udało się wczytać danych najemcy. Spróbuj ponownie później.",
+    "pageTitle": "Kody QR dla {{name}}",
+    "batchDownload": "Pobierz zbiorczo kody QR",
+    "sectionTitle": "Kody QR",
+    "generatingMenu": "Generowanie kodu QR...",
+    "noTables": "Nie znaleziono stolików na żadnej sali. Dodaj stoliki w edytorze układu.",
+    "noTablesOnFloor": "Brak stolików na tej sali.",
+    "generatingTables": "Generowanie kodów QR dla {{count}} stolików..."
+  },
+  "qrPrint": {
+    "loadingRestaurant": "Wczytywanie restauracji...",
+    "loadError": "Nie udało się wczytać restauracji. Spróbuj ponownie później.",
+    "noRestaurant": "Nie wybrano restauracji.",
+    "backToGenerator": "Wróć do generatora kodów QR",
+    "noTablesTitle": "Nie znaleziono stolików w układzie sali.",
+    "noTablesAction": "Przejdź do edytora układu sali, aby dodać stoliki",
+    "goBack": "Wróć",
+    "print": "Drukuj",
+    "generating": "Generowanie kodów QR...",
+    "generatingTables": "Generowanie kodów QR dla {{count}} stolików..."
+  },
+  "qrDisplay": {
+    "goBack": "Wróć",
+    "print": "Drukuj kod QR",
+    "generating": "Generowanie kodu QR...",
+    "qrAlt": "Kod QR dla {{title}}"
+  },
+  "qrRow": {
+    "table": "Stolik {{table}}",
+    "restaurant": "Restauracja",
+    "qrAltTable": "Kod QR dla stolika {{table}}",
+    "qrAltRestaurant": "Kod QR restauracji",
+    "failed": "Nie udało się wygenerować kodu QR"
+  },
+  "qrLoadingError": {
+    "default": "Nie udało się wczytać kodu QR.",
+    "goBack": "Wróć do generatora kodów QR"
+  },
+  "restaurantsView": {
+    "add": "Dodaj restaurację",
+    "empty": "Nie znaleziono restauracji.",
+    "floorCount": "{{count}} sal(a)",
+    "ariaLabel": "Otwórz układ sali dla {{name}}"
+  },
+  "restaurantCreator": {
+    "title": "Kreator restauracji",
+    "description": "Utwórz nowego najemcę restauracji",
+    "actions": {
+      "create": "Utwórz restaurację",
+      "creating": "Tworzenie..."
+    },
+    "fields": {
+      "name": {
+        "label": "Nazwa restauracji",
+        "placeholder": "np. Bistro Nova",
+        "error": "Nazwa restauracji jest wymagana."
+      },
+      "slug": {
+        "label": "Wygenerowany slug",
+        "empty": "Slug zostanie wygenerowany z nazwy restauracji"
+      }
+    },
+    "profile": {
+      "title": "Dodaj profil od razu (opcjonalnie)",
+      "description": "Rozwiń i uzupełnij wymagane pola profilu podczas tworzenia.",
+      "show": "Rozwiń",
+      "hide": "Zwiń"
+    },
+    "duplicateName": {
+      "notice": "Restauracja o tej nazwie już istnieje. Podaj ulicę i miasto, aby wygenerować unikalny slug."
+    },
+    "errors": {
+      "createFailed": "Nie udało się utworzyć restauracji. Spróbuj ponownie.",
+      "validationFailed": "Popraw zaznaczone pola i spróbuj ponownie.",
+      "profileSaveFailed": "Restauracja została utworzona, ale nie udało się zapisać profilu."
+    },
+    "success": "Restauracja została utworzona."
+  },
+  "restaurantQr": {
+    "generateError": "Nie udało się wygenerować kodu QR dla restauracji:",
+    "loadError": "Nie udało się wczytać kodu QR restauracji.",
+    "subtitle": "Menu restauracji"
+  },
+  "staff": {
+    "title": "Zarządzanie personelem",
+    "description": "Zarządzaj kontami kuchni, kelnerów i innych pracowników",
+    "status": {
+      "active": "Aktywne",
+      "inactive": "Oczekuje na aktywację"
+    },
+    "accessLevels": {
+      "kitchen": "Kuchnia",
+      "waiter": "Kelner"
+    },
+    "toggleForm": {
+      "show": "Dodaj użytkowników",
+      "hide": "Anuluj"
+    },
+    "form": {
+      "emailLabel": "Email",
+      "nameLabel": "Imię",
+      "surnameLabel": "Nazwisko",
+      "accessLabel": "Poziom dostępu",
+      "addRow": "Dodaj kolejnego",
+      "removeRow": "Usuń",
+      "saveSingle": "Zapisz tego użytkownika",
+      "submit": "Zapisz wszystkich",
+      "submitting": "Zapisywanie..."
+    },
+    "emptyState": {
+      "heading": "Zacznijmy od dodania nowych członków zespołu 🚀"
+    },
+    "list": {
+      "title": "Wszyscy użytkownicy",
+      "loading": "Ładowanie użytkowników...",
+      "empty": "Brak użytkowników.",
+      "personLabel": "Imię i nazwisko: {{name}} {{surname}}",
+      "notProvided": "-"
+    },
+    "validation": {
+      "invalidEmail": "Co najmniej jeden adres e-mail jest nieprawidłowy.",
+      "duplicateEmail": "Znaleziono powtarzające się adresy e-mail. Każdy musi być unikalny.",
+      "existingEmail": "{{emails}} jest już w tym lokalu"
+    },
+    "toast": {
+      "bulkSuccessTitle": "Dodano użytkowników",
+      "bulkSuccessDescription": "Wszyscy użytkownicy zostali utworzeni. Linki aktywacyjne zostaną wkrótce wysłane.",
+      "bulkSuccessAllWaiterNoticeDescription": "Wszyscy dodani użytkownicy mieli już konto. Na podane adresy wysłano wiadomość e-mail - z informacją o dopisaniu do tej restauracji oraz że przy kolejnym logowaniu do panelu kelnera wyświetli się lista lokali.",
+      "bulkSuccessAllLinkedDescription": "Wszyscy dodani użytkownicy mieli już konto i zostali dopisani do tego lokalu - bez e-maila aktywacyjnego ani dodatkowej wiadomości.",
+      "bulkSuccessMixedNotificationsDescription": "Użytkownicy zostali dodani zgodnie z typem konta: nowi otrzymają link aktywacyjny na e-mail, kelnerzy z istniejącym kontem - wiadomość o dopisaniu do lokalu przy kolejnym logowaniu do panelu kelnera, pozostali zostali dopisani bez osobnego e-maila.",
+      "bulkPartialTitle": "Częściowy sukces",
+      "bulkPartialDescription": "Utworzono {{created}} z {{total}} użytkowników. Niektóre nie powiodły się - sprawdź listę.",
+      "bulkErrorTitle": "Nie udało się dodać użytkowników",
+      "bulkErrorDescription": "Nie udało się utworzyć użytkowników.",
+      "singleSuccessTitle": "Dodano użytkownika",
+      "singleSuccessDescription": "Użytkownik utworzony. Link aktywacyjny zostanie wkrótce wysłany.",
+      "singleExistingWaiterDescription": "Ten adres ma już konto w Restorio. Na e-mail wysłaliśmy informację, że użytkownik został dopisany do tej restauracji - przy kolejnym logowaniu do panelu kelnera wybierze ten lokal z listy dostępnych lokali.",
+      "singleExistingLinkedDescription": "Ten adres ma już konto w Restorio - użytkownik został dopisany do tego lokalu i nie otrzyma drugiego e-maila aktywacyjnego.",
+      "singleErrorTitle": "Nie udało się dodać użytkownika",
+      "singleErrorDescription": "Nie udało się utworzyć użytkownika.",
+      "deleteSuccessTitle": "Użytkownik usunięty",
+      "deleteSuccessDescription": "Użytkownik został usunięty.",
+      "deleteErrorTitle": "Nie udało się usunąć",
+      "deleteErrorDescription": "Nie udało się usunąć użytkownika.",
+      "invalidEmail": "Podaj prawidłowy adres e-mail.",
+      "waiterNameRequired": "Imię i nazwisko są wymagane dla konta kelnera."
+    },
+    "feedback": {
+      "bulkSuccess": "Wszyscy użytkownicy zostali utworzeni. Linki aktywacyjne zostaną wkrótce wysłane.",
+      "bulkPartial": "Utworzono {{created}} z {{total}} użytkowników. Niektóre nie powiodły się - sprawdź listę.",
+      "bulkError": "Nie udało się utworzyć użytkowników.",
+      "createSuccess": "Użytkownik utworzony. Link aktywacyjny zostanie wkrótce wysłany.",
+      "createError": "Nie udało się utworzyć użytkownika.",
+      "deleteSuccess": "Użytkownik został usunięty.",
+      "deleteError": "Nie udało się usunąć użytkownika."
+    },
+    "delete": {
+      "button": "Usuń użytkownika",
+      "confirmTitle": "Usunąć tego użytkownika?",
+      "cancel": "Anuluj",
+      "confirm": "Potwierdź",
+      "deleting": "Usuwanie..."
+    },
+    "modal": {
+      "alreadyMemberTitle": "Już w zespole",
+      "alreadyMemberDescription": "Ten adres e-mail jest już powiązany z tym lokalem - nie możesz dodać go ponownie jako personelu.",
+      "ok": "OK",
+      "closeAria": "Zamknij"
+    }
+  },
+  "tenantProfile": {
+    "title": "Profil lokalu",
+    "description": "Zarządzaj danymi firmowymi, kontaktowymi i mediami społecznościowymi najemcy",
+    "loadingTenants": "Wczytywanie najemców...",
+    "loadingProfile": "Wczytywanie profilu...",
+    "selectedTenant": {
+      "title": "Wybrana restauracja",
+      "empty": "Nie wybrano restauracji."
+    },
+    "sections": {
+      "company": "Dane firmy",
+      "contact": "Kontakt z restauracją",
+      "address": "Adres",
+      "owner": "Dane właściciela",
+      "contactPerson": "Osoba kontaktowa",
+      "socials": "Media społecznościowe"
+    },
+    "fields": {
+      "nip": {
+        "label": "NIP",
+        "placeholder": "np. 1234567890",
+        "helper": "Numer identyfikacji podatkowej (dokładnie 10 cyfr)",
+        "error": "NIP musi składać się z dokładnie 10 cyfr"
+      },
+      "companyName": {
+        "label": "Nazwa firmy",
+        "placeholder": "Oficjalna zarejestrowana nazwa firmy",
+        "error": "Nazwa firmy jest wymagana"
+      },
+      "logo": {
+        "label": "Logo",
+        "browse": "Wybierz plik",
+        "placeholder": "https://example.com/logo.png",
+        "helper": "Prześlij logo PNG, JPEG lub WEBP o rozmiarze do 5 MB.",
+        "uploading": "Przesyłanie logo...",
+        "uploadError": "Nie udało się przesłać logo. Spróbuj ponownie.",
+        "invalidType": "Logo musi być obrazem PNG, JPEG lub WEBP.",
+        "fileTooLarge": "Logo musi mieć maksymalnie 5 MB.",
+        "current": "Aktualne logo",
+        "previewAlt": "Podgląd logo najemcy",
+        "error": "Nieprawidłowe logo"
+      },
+      "contactEmail": {
+        "label": "Email kontaktowy",
+        "placeholder": "restauracja@example.com",
+        "error": "Email kontaktowy jest wymagany"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "+48 123 456 789",
+        "error": "Numer telefonu jest wymagany"
+      },
+      "addressStreetName": {
+        "label": "Nazwa ulicy",
+        "placeholder": "Wierzbięcice",
+        "error": "Nazwa ulicy jest wymagana"
+      },
+      "addressStreetNumber": {
+        "label": "Numer",
+        "placeholder": "1",
+        "error": "Numer ulicy jest wymagany"
+      },
+      "addressCity": {
+        "label": "Miasto",
+        "placeholder": "Poznań",
+        "error": "Miasto jest wymagane"
+      },
+      "addressPostalCode": {
+        "label": "Kod pocztowy",
+        "placeholder": "00-001",
+        "helper": "Format polski: XX-XXX",
+        "error": "Kod pocztowy musi być w formacie XX-XXX"
+      },
+      "addressCountry": {
+        "label": "Kraj",
+        "placeholder": "Polska",
+        "error": "Kraj jest wymagany"
+      },
+      "ownerFirstName": {
+        "label": "Imię",
+        "placeholder": "Jan",
+        "error": "Imię właściciela jest wymagane"
+      },
+      "ownerLastName": {
+        "label": "Nazwisko",
+        "placeholder": "Kowalski",
+        "error": "Nazwisko właściciela jest wymagane"
+      },
+      "ownerEmail": {
+        "label": "Email",
+        "placeholder": "wlasciciel@example.com",
+        "error": "Nieprawidłowy email właściciela"
+      },
+      "ownerPhone": {
+        "label": "Telefon",
+        "placeholder": "+48 123 456 789",
+        "error": "Nieprawidłowy numer telefonu właściciela"
+      },
+      "contactPersonFirstName": {
+        "label": "Imię",
+        "placeholder": "Anna",
+        "error": "Nieprawidłowe imię osoby kontaktowej"
+      },
+      "contactPersonLastName": {
+        "label": "Nazwisko",
+        "placeholder": "Nowak",
+        "error": "Nieprawidłowe nazwisko osoby kontaktowej"
+      },
+      "contactPersonEmail": {
+        "label": "Email",
+        "placeholder": "kontakt@example.com",
+        "error": "Nieprawidłowy email osoby kontaktowej"
+      },
+      "contactPersonPhone": {
+        "label": "Telefon",
+        "placeholder": "+48 123 456 789",
+        "error": "Nieprawidłowy numer telefonu osoby kontaktowej"
+      },
+      "socialFacebook": {
+        "label": "Facebook",
+        "placeholder": "https://facebook.com/twojarestauracja",
+        "error": "Nieprawidłowy URL Facebooka"
+      },
+      "socialInstagram": {
+        "label": "Instagram",
+        "placeholder": "https://instagram.com/twojarestauracja",
+        "error": "Nieprawidłowy URL Instagrama"
+      },
+      "socialTiktok": {
+        "label": "TikTok",
+        "placeholder": "https://tiktok.com/@twojarestauracja",
+        "error": "Nieprawidłowy URL TikToka"
+      },
+      "socialWebsite": {
+        "label": "Strona www",
+        "placeholder": "https://twojarestauracja.pl",
+        "error": "Nieprawidłowy URL strony www"
+      }
+    },
+    "errors": {
+      "loadTenants": "Nie udało się wczytać najemców. Odśwież i spróbuj ponownie.",
+      "selectTenant": "Wybierz najemcę z rozwijanego menu w nagłówku.",
+      "saveFailed": "Nie udało się zapisać profilu lokalu. Spróbuj ponownie.",
+      "validationFailed": "Popraw zaznaczone pola i spróbuj ponownie."
+    },
+    "success": "Profil lokalu został zapisany.",
+    "actions": {
+      "save": "Zapisz profil",
+      "saving": "Zapisywanie..."
+    }
+  },
+  "tableQr": {
+    "generateError": "Nie udało się wygenerować kodu QR dla stolika {{table}}:",
+    "loadError": "Nie udało się wczytać kodu QR stolika.",
+    "title": "Stolik {{table}}"
+  },
+  "onboarding": {
+    "title": "Utwórz swoją pierwszą restaurację",
+    "description": "Aby rozpocząć, dodaj swoją pierwszą restaurację!",
+    "fields": {
+      "name": {
+        "label": "Nazwa restauracji",
+        "placeholder": "np. Bella Italia",
+        "error": "Nazwa restauracji jest wymagana"
+      },
+      "street": {
+        "label": "Ulica",
+        "placeholder": "Wierzbięcice",
+        "error": "Ulica jest wymagana"
+      },
+      "streetNumber": {
+        "label": "Numer",
+        "placeholder": "12",
+        "error": "Numer jest wymagany"
+      },
+      "city": {
+        "label": "Miasto",
+        "placeholder": "Poznań",
+        "error": "Miasto jest wymagane"
+      }
+    },
+    "actions": {
+      "create": "Utwórz restaurację",
+      "creating": "Tworzenie..."
+    },
+    "errors": {
+      "createFailed": "Nie udało się utworzyć restauracji. Spróbuj ponownie."
+    }
+  }
+}

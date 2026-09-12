@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": false,
+    "rootDir": ".",
+    "noEmit": true
+  },
+  "include": ["src/**/*", "tests/**/*", "tailwind.config.ts", "tsup.config.ts"],
+  "exclude": []
+}

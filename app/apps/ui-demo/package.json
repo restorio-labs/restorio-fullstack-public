@@ -1,0 +1,35 @@
+{
+  "name": "@restorio/ui-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "demo": "vite --port 6767",
+    "build": "tsc && vite build",
+    "clean": "rm -rf dist && rm -rf node_modules",
+    "preview": "vite preview",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" && eslint . --fix",
+    "check": "prettier --check \"**/*.{ts,tsx,json,md}\" && eslint . --ext ts,tsx"
+  },
+  "dependencies": {
+    "@types/node": "^22",
+    "@restorio/types": "workspace:*",
+    "@restorio/ui": "workspace:*",
+    "@restorio/utils": "workspace:*",
+    "@restorio/auth": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.9",
+    "vite": "^7.3.2"
+  }
+}

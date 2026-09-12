@@ -1,0 +1,177 @@
+{
+  "common": {
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "save": "Zapisz",
+    "delete": "Usuń",
+    "close": "Zamknij",
+    "open": "Otwórz",
+    "loading": "Ładowanie..."
+  },
+  "app": {
+    "title": "Demo UI",
+    "description": "Przeglądaj przykłady komponentów i wchodź w interakcję z systemem projektowania"
+  },
+  "theme": {
+    "current": "Motyw: {{current}} → {{next}}"
+  },
+  "navigation": {
+    "overview": "Przegląd",
+    "primitives": "Prymitywy",
+    "inputs": "Wejścia",
+    "forms": "Formularze",
+    "overlays": "Nakładki",
+    "feedback": "Informacja zwrotna",
+    "layouts": "Układy",
+    "domain": "Domena"
+  },
+  "components": {
+    "box": "Pudełko",
+    "stack": "Stos",
+    "text": "Tekst",
+    "button": "Przycisk",
+    "icon": "Ikona",
+    "card": "Karta",
+    "input": "Pole",
+    "select": "Wybór",
+    "checkbox": "Pole wyboru",
+    "switch": "Przełącznik",
+    "textarea": "Pole tekstowe",
+    "emptyState": "Stan pusty",
+    "loader": "Ładowacz",
+    "skeleton": "Szkielet",
+    "dropdown": "Lista rozwijana",
+    "tooltip": "Podpowiedź",
+    "modal": "Okno",
+    "toast": "Powiadomienie"
+  },
+  "overview": {
+    "title": "Demo UI Restorio",
+    "subtitle": "Przeglądaj przykłady komponentów i wchodź w interakcję z systemem projektowania.",
+    "quickLinks": "Szybkie linki",
+    "links": {
+      "buttons": "Przyciski",
+      "inputs": "Pola",
+      "overlays": "Nakładki",
+      "feedback": "Informacja zwrotna"
+    },
+    "included": "Co jest zawarte",
+    "description": "Kompleksowy system projektowania z prymitywami, polami wejściowymi, nakładkami, komponentami informacji zwrotnej i komponentami specyficznymi dla zarządzania restauracją."
+  },
+  "button": {
+    "title": "Przycisk",
+    "description": "Warianty, rozmiary, stany wyłączone i opcje pełnej szerokości.",
+    "variants": "Warianty",
+    "sizes": "Rozmiary",
+    "fullWidth": "Pełna szerokość",
+    "fullWidthDescription": "Rozszerz do kontenera",
+    "labels": {
+      "primary": "Główny",
+      "secondary": "Drugorzędny",
+      "danger": "Niebezpieczny",
+      "disabled": "Wyłączony",
+      "small": "Mały",
+      "medium": "Średni",
+      "large": "Duży"
+    }
+  },
+  "input": {
+    "title": "Pole",
+    "description": "Pola tekstowe z etykietami, symbolami zastępczymi, tekstem pomocniczym i stanami błędów.",
+    "controlled": "Kontrolowane",
+    "states": "Stany",
+    "labels": {
+      "name": "Imię",
+      "email": "Email",
+      "disabled": "Wyłączone",
+      "error": "Z błędem"
+    },
+    "placeholders": {
+      "name": "Jan Kowalski",
+      "email": "nazwa@przyklad.pl",
+      "disabled": "Wyłączone pole",
+      "error": "Nieprawidłowa wartość"
+    },
+    "helperText": "Nigdy nie udostępnimy Twojego emaila.",
+    "errorText": "To pole jest wymagane"
+  },
+  "modal": {
+    "title": "Okno",
+    "description": "Komponent okna dialogowego z opcjami rozmiaru i tłem nakładki.",
+    "openButton": "Otwórz {{size}}",
+    "modalTitle": "Rozmiar okna: {{size}}",
+    "modalDescription": "Używaj okien do krytycznych przepływów, które wymagają uwagi i potwierdzenia użytkownika.",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź"
+  },
+  "toast": {
+    "title": "Powiadomienie",
+    "description": "Wbudowane powiadomienia z wariantami i akcjami do odrzucenia.",
+    "showButton": "Pokaż {{variant}}",
+    "toastTitle": "Powiadomienie {{variant}}",
+    "toastMessage": "Zmiany zapisane pomyślnie.",
+    "toastDescription": "Szczegółowa wiadomość dla tego powiadomienia.",
+    "dismiss": "Odrzuć"
+  },
+  "select": {
+    "title": "Wybór",
+    "description": "Lista rozwijana z opcjami, etykietami i stanami błędów.",
+    "placeholder": "Wybierz opcję",
+    "options": {
+      "option1": "Opcja 1",
+      "option2": "Opcja 2",
+      "option3": "Opcja 3"
+    }
+  },
+  "checkbox": {
+    "title": "Pole wyboru",
+    "description": "Pola wyboru z etykietami i stanami.",
+    "labels": {
+      "agree": "Akceptuję warunki",
+      "subscribe": "Zapisz się do newslettera",
+      "disabled": "Opcja wyłączona"
+    }
+  },
+  "switch": {
+    "title": "Przełącznik",
+    "description": "Przełącznik dla ustawień logicznych.",
+    "labels": {
+      "notifications": "Włącz powiadomienia",
+      "darkMode": "Tryb ciemny",
+      "disabled": "Wyłączone"
+    }
+  },
+  "dropdown": {
+    "title": "Lista rozwijana",
+    "description": "Menu kontekstowe z elementami i akcjami.",
+    "trigger": "Otwórz menu",
+    "items": {
+      "edit": "Edytuj",
+      "duplicate": "Duplikuj",
+      "archive": "Archiwizuj",
+      "delete": "Usuń"
+    }
+  },
+  "tooltip": {
+    "title": "Podpowiedź",
+    "description": "Kontekstowe wskazówki przy najechaniu lub fokusie.",
+    "content": "To jest pomocna podpowiedź",
+    "trigger": "Najedź na mnie"
+  },
+  "loader": {
+    "title": "Ładowacz",
+    "description": "Wskaźniki ładowania w różnych rozmiarach.",
+    "sizes": {
+      "small": "Mały",
+      "medium": "Średni",
+      "large": "Duży"
+    }
+  },
+  "emptyState": {
+    "title": "Stan pusty",
+    "description": "Symbol zastępczy dla pustych stanów danych.",
+    "exampleTitle": "Nie znaleziono elementów",
+    "exampleDescription": "Zacznij od utworzenia pierwszego elementu.",
+    "exampleAction": "Utwórz element"
+  }
+}

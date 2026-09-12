@@ -1,0 +1,830 @@
+{
+  "common": {
+    "skipToContent": "Skip to main content",
+    "loading": "Loading...",
+    "error": "Error",
+    "actions": {
+      "save": "Save",
+      "saving": "Saving...",
+      "delete": "Delete",
+      "deleteSelected": "Delete selected",
+      "goBack": "Go Back",
+      "print": "Print",
+      "printQr": "Print QR Code"
+    }
+  },
+  "app": {
+    "title": "Restorio Admin Panel",
+    "comingSoon": "Admin dashboard coming soon...",
+    "description": "Manage your restaurant operations"
+  },
+  "errors": {
+    "rootElementNotFound": "Root element not found"
+  },
+  "unsavedChanges": {
+    "title": "Unsaved changes",
+    "message": "You have unsaved changes. If you leave now, your changes will be lost.",
+    "keepEditing": "Keep editing",
+    "discard": "Discard changes"
+  },
+  "sidebar": {
+    "ariaLabel": "Admin navigation",
+    "sections": {
+      "floorLayout": "Floor Layout",
+      "menu": "Menu",
+      "tools": "Tools",
+      "settings": "Settings"
+    },
+    "items": {
+      "label": "Choose app",
+      "adminPanel": "Admin Panel",
+      "kitchenPanel": "Kitchen Panel",
+      "waiterPanel": "Waiter Panel",
+      "floorEditor": "Floor Editor",
+      "menuCreator": "Menu Creator",
+      "mobileConfiguration": "Mobile configuration",
+      "pageConfigurator": "Page Configurator",
+      "qrCodeGenerator": "QR Code Generator",
+      "tenantProfile": "Profile",
+      "paymentConfig": "Payment Config",
+      "transactions": "Transactions",
+      "staff": "Staff"
+    },
+    "mobile": {
+      "openMenu": "Open navigation menu",
+      "closeMenu": "Close navigation menu"
+    },
+    "logoutLoading": "Logging out..."
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "options": {
+      "en": "English",
+      "pl": "Polish"
+    }
+  },
+  "tenantSwitcher": {
+    "loadError": "Failed to load restaurants.",
+    "loading": "Loading restaurants...",
+    "empty": "No restaurants available.",
+    "addRestaurant": "+ Add new restaurant",
+    "select": "Select restaurant"
+  },
+  "floorEditor": {
+    "title": "Floor layout",
+    "loadingDescription": "Loading...",
+    "loadingRestaurant": "Loading restaurant...",
+    "noRestaurantDescription": "No restaurant selected",
+    "noRestaurantMessage": "Select a restaurant from the sidebar to edit its floor layout.",
+    "errorDescription": "Error",
+    "errorMessage": "Failed to load restaurant. Please try again later.",
+    "emptyMessage": "No floor layout exists for this restaurant yet. Create one to start designing.",
+    "createButton": "Create floor layout",
+    "creatingButton": "Creating...",
+    "layoutTitle": "Floor: {{name}}",
+    "defaultCanvasName": "Floor 1",
+    "defaultCanvasNameBase": "Floor",
+    "saveSuccessTitle": "Layout saved",
+    "saveSuccessMessage": "Your floor layout changes were saved.",
+    "saveErrorTitle": "Save failed",
+    "saveErrorMessage": "Could not save floor layout. Please try again.",
+    "renameSuccessTitle": "Floor renamed",
+    "renameSuccessMessage": "The floor name was updated.",
+    "renameErrorTitle": "Rename failed",
+    "renameErrorMessage": "Could not rename this floor. Please try again.",
+    "renamingButton": "Renaming...",
+    "deleteSuccessTitle": "Floor deleted",
+    "deleteSuccessMessage": "The floor was deleted.",
+    "deleteErrorTitle": "Delete failed",
+    "deleteErrorMessage": "Could not delete this floor. Please try again.",
+    "deletingButton": "Deleting...",
+    "deleteConfirm": {
+      "title": "Delete this floor?",
+      "message": "This permanently deletes the floor layout “{{name}}”. Type that exact name to confirm.",
+      "inputLabel": "Floor name",
+      "cancel": "Cancel",
+      "confirm": "Delete floor"
+    },
+    "mobileUnavailableTitle": "Floor editor unavailable on mobile",
+    "mobileUnavailableMessage": "Use a tablet or desktop device to edit floor layouts in the admin panel.",
+    "floorSelector": {
+      "label": "Floor",
+      "addFloor": "Add floor",
+      "renameLabel": "Floor name",
+      "renameFloor": "Rename floor",
+      "deleteFloor": "Delete floor"
+    },
+    "toolbar": {
+      "undo": "Undo",
+      "redo": "Redo",
+      "save": "Save",
+      "add": "Add",
+      "showGrid": "Show grid"
+    },
+    "addMenu": {
+      "table": "Add table",
+      "zone": "Add zone",
+      "bar": "Add bar",
+      "wall": "Add wall",
+      "entrance": "Add entrance"
+    },
+    "panel": {
+      "title": "Customize",
+      "layer": "Layer",
+      "bringToFront": "Bring to front",
+      "sendToBack": "Send to back",
+      "forward": "Forward",
+      "backward": "Backward",
+      "name": "Name",
+      "color": "Color",
+      "seats": "Seats",
+      "move": "Move",
+      "tableCustomLabel": "Table label",
+      "label": "Label",
+      "delete": "Delete",
+      "deleteSelected": "Delete selected",
+      "multiSelected": "{{count}} items selected.",
+      "multiSelectHint": "Control mode: multi-select and move only.",
+      "selectHint": "Select an element on the canvas to customize it."
+    },
+    "unsavedChanges": {
+      "title": "You did not save the changes",
+      "message": "You have unsaved changes on this floor. If you switch floors now, your changes will be lost.",
+      "keepEditing": "Keep editing",
+      "discard": "Discard changes"
+    },
+    "aria": {
+      "resizeHandle": "Resize {{mode}}",
+      "setColor": "Set color {{color}}"
+    },
+    "zoneName": "Zone {{number}}",
+    "tableLabel": "Table {{number}}",
+    "tableGroupLabel": "Tables {{numbers}}"
+  },
+  "menuCreator": {
+    "title": "Menu Creator",
+    "description": "Create and manage tenant menu categories and items",
+    "loading": "Loading menu...",
+    "emptyState": "No categories yet. Add your first category to start building the menu.",
+    "success": "Menu saved successfully.",
+    "actions": {
+      "save": "Save menu",
+      "saving": "Saving...",
+      "addCategory": "Add category",
+      "removeCategory": "Remove category",
+      "moveCategoryUp": "Move category up",
+      "moveCategoryDown": "Move category down",
+      "addItem": "Add item",
+      "removeItem": "Remove item",
+      "addTag": "Add tag",
+      "removeTag": "Remove tag"
+    },
+    "fields": {
+      "categoryName": "Category name",
+      "categoryOrderControls": "Order",
+      "itemName": "Item name",
+      "itemPrice": "Price",
+      "itemActive": "Active",
+      "itemPromoted": "Promoted",
+      "itemDescription": "Description",
+      "itemTags": "Tags",
+      "itemImage": "Photo",
+      "itemImageHint": "Square or nearly square image (PNG, JPEG, or WebP)."
+    },
+    "placeholders": {
+      "categoryName": "e.g. Starters",
+      "itemName": "e.g. Product {{index}}",
+      "itemDescription": "Describe this menu item",
+      "itemTags": "Type a tag and click +"
+    },
+    "errors": {
+      "selectRestaurant": "Select a restaurant from the tenant switcher first.",
+      "saveFailed": "Failed to save menu. Please try again.",
+      "invalidCategory": "Each category must have a valid name.",
+      "invalidItem": "Each item must have a valid name and non-negative price."
+    },
+    "toast": {
+      "saveSuccessTitle": "Menu saved",
+      "saveErrorTitle": "Could not save menu",
+      "validationErrorTitle": "Check your menu"
+    },
+    "imageUpload": {
+      "upload": "Upload image",
+      "uploading": "Uploading…",
+      "remove": "Remove image",
+      "invalidType": "Use PNG, JPEG, or WebP.",
+      "tooLarge": "Image is too large.",
+      "failed": "Upload failed. Try again."
+    }
+  },
+  "mobileConfiguration": {
+    "title": "Mobile configuration",
+    "description": "Title, favicon, theme, and landing copy for the customer mobile app",
+    "loading": "Loading…",
+    "actions": {
+      "save": "Save",
+      "saving": "Saving…",
+      "clear": "Clear",
+      "chooseFile": "Choose file"
+    },
+    "fields": {
+      "pageTitle": "Browser title",
+      "favicon": "Favicon (.ico)",
+      "backgroundColor": "Background color",
+      "primaryButtonBackground": "Primary button — background",
+      "primaryButtonText": "Primary button — label color",
+      "secondaryButtonBackground": "Secondary button — background",
+      "secondaryButtonText": "Secondary button — label color",
+      "textPrimary": "Text — primary",
+      "textSecondary": "Text — secondary",
+      "textTertiary": "Text — tertiary / muted",
+      "borderDefault": "Borders — default",
+      "surfacePrimary": "Surfaces — primary (cards, inputs)",
+      "surfaceSecondary": "Surfaces — secondary (sections)",
+      "promotedBadgeBackground": "Promoted item badge — background",
+      "promotedBadgeText": "Promoted item badge — label",
+      "promotedBadgeBorder": "Promoted item badge — border",
+      "googleFontUrl": "Google Font URL",
+      "landingHeadline": "Landing headline",
+      "landingSubtitle": "Landing subtitle",
+      "tablesCtaLabel": "Tables button label",
+      "menuCtaLabel": "Menu button label",
+      "openStatusLabel": "“Open” table label",
+      "closedStatusLabel": "“Closed” table label",
+      "uiLocale": "Guest app language",
+      "uiLocaleBrowserDefault": "Browser default"
+    },
+    "placeholders": {
+      "pageTitle": "Leave empty to use restaurant name"
+    },
+    "hints": {
+      "pageTitle": "Shown in the mobile browser tab and header when set.",
+      "favicon": "ICO only. Image must be exactly 16×16, 32×32, 64×64, or 128×128 pixels.",
+      "faviconPreviewAlt": "Favicon preview",
+      "faviconCurrent": "A favicon is already configured. Upload a new file to replace it.",
+      "faviconSelected": "Selected: {{name}}",
+      "backgroundColor": "Background for the guest app in the selected appearance (light or dark).",
+      "themePersonalizationMode": "Changing this updates the preview to the same appearance so you can see your edits. Guests still follow their device theme unless the app forces a mode.",
+      "primaryButtonBackground": "Solid style used for main actions in the guest app.",
+      "primaryButtonText": "Label and icon color on primary (solid) buttons.",
+      "secondaryButtonBackground": "Solid style used for secondary actions.",
+      "secondaryButtonText": "Label color on secondary solid buttons.",
+      "textPrimary": "Main body and heading text.",
+      "textSecondary": "Supporting text and descriptions.",
+      "textTertiary": "Hints, captions, and de-emphasized labels.",
+      "borderDefault": "Default borders and dividers between blocks.",
+      "surfacePrimary": "Raised panels, cards, and primary content areas.",
+      "surfaceSecondary": "Grouped sections and subtle backgrounds.",
+      "promotedBadgeBackground": "Badge behind “promoted” / chef’s pick labels on menu and order items.",
+      "promotedBadgeText": "Text color on the promoted badge.",
+      "promotedBadgeBorder": "Border around the badge for contrast.",
+      "googleFontUrl": "Paste the full URL from Google Fonts.",
+      "googleFontUrlTooltip": "Go to fonts.google.com, select a font, and copy the embed URL.",
+      "uiLocale": "When set, the guest app uses this language for all built-in text (tables page, navigation, system labels). Leave on “Browser default” to follow the guest’s device language."
+    },
+    "landingSection": {
+      "title": "Landing & guest pages",
+      "hint": "Shown on the restaurant home link before guests scan a table QR. Leave fields empty to use app defaults."
+    },
+    "themeSection": {
+      "title": "Theme customization",
+      "editTargetLabel": "Customize colors for",
+      "editLight": "Light appearance",
+      "editDark": "Dark appearance",
+      "primaryButton": "Primary button",
+      "secondaryButton": "Secondary button",
+      "surfacesTextAndBorders": "Surfaces, text, and borders",
+      "promotedBadge": "Promoted menu badge"
+    },
+    "preview": {
+      "title": "Guest app preview",
+      "hint": "Sample screens; controls are inactive. Table and order views use placeholder content.",
+      "screenLabel": "Screen",
+      "themeLabel": "Appearance",
+      "screens": {
+        "landing": "Home",
+        "tables": "Tables & layout",
+        "menu": "Menu",
+        "order": "Order at table"
+      },
+      "theme": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "Match browser"
+      },
+      "defaultSubtitle": "Browse the menu or check table availability before you sit down.",
+      "ctaTables": "Table availability & layout",
+      "ctaMenu": "View menu",
+      "navHome": "Home",
+      "navTables": "Tables",
+      "navMenu": "Menu",
+      "quickNavAria": "Quick navigation",
+      "openStatusFallback": "Open",
+      "closedStatusFallback": "Closed",
+      "tables": {
+        "back": "Back",
+        "subtitle": "Live availability from the floor plan",
+        "floorTitle": "Main floor",
+        "listTitle": "All tables",
+        "sampleOpen": "Table 4",
+        "sampleClosed": "Table 8"
+      },
+      "menu": {
+        "back": "Back",
+        "subtitle": "Browse dishes and prices",
+        "category": "Featured",
+        "promotedBadge": "Chef’s pick",
+        "item1Name": "House soup",
+        "item1Desc": "Seasonal vegetables, bread",
+        "item1Price": "18.00 PLN",
+        "item2Name": "Grilled trout",
+        "item2Price": "42.00 PLN"
+      },
+      "order": {
+        "tableCaption": "Table 3",
+        "cartButton": "Go to checkout · 2 items · 60.00 PLN",
+        "summaryTitle": "Order summary",
+        "category": "Featured",
+        "item1Name": "House soup",
+        "item1Price": "18.00 PLN",
+        "item2Name": "Grilled trout",
+        "item2Price": "42.00 PLN",
+        "subtotalLabel": "Subtotal",
+        "subtotalPrice": "60.00 PLN",
+        "serviceLabel": "Service fee",
+        "servicePrice": "3.00 PLN",
+        "totalLabel": "Total",
+        "totalPrice": "63.00 PLN"
+      }
+    },
+    "copySection": {
+      "title": "Copy theme from another restaurant",
+      "source": "Source restaurant",
+      "placeholder": "Select…",
+      "copy": "Copy theme",
+      "copying": "Copying…"
+    },
+    "errors": {
+      "selectRestaurant": "Select a restaurant from the tenant switcher first.",
+      "invalidGoogleFontUrl": "URL must start with https://fonts.googleapis.com/css",
+      "invalidFaviconType": "Favicon must be an ICO file (image/x-icon).",
+      "invalidFaviconExtension": "File extension must be .ico.",
+      "faviconUploadFailed": "Could not upload favicon to storage."
+    },
+    "toast": {
+      "saveSuccessTitle": "Saved",
+      "saveSuccessBody": "Mobile configuration was updated.",
+      "saveErrorTitle": "Save failed",
+      "saveErrorBody": "Could not save mobile configuration.",
+      "copySuccessTitle": "Theme copied",
+      "copySuccessBody": "Theme override was copied from the selected restaurant.",
+      "copyErrorTitle": "Copy failed",
+      "copyErrorBody": "Could not copy theme."
+    }
+  },
+  "menuConfigurator": {
+    "title": "Page Configurator",
+    "description": "Configure the components and layout of your restaurant pages",
+    "placeholderTitle": "Menu Page Configurator",
+    "placeholderDescription": "Customize how your menu appears to customers on your restaurant page"
+  },
+  "payment": {
+    "title": "Payment Configurations",
+    "description": "Configure Przelewy24 payment provider settings",
+    "errors": {
+      "loadRestaurants": "Failed to load restaurants. Please refresh and try again.",
+      "selectRestaurant": "Select a restaurant from the header dropdown.",
+      "updateFailed": "Failed to update P24 configuration. Please verify the restaurant tenant ID and try again.",
+      "validationFailed": "Please fix the highlighted fields and try again."
+    },
+    "selectedRestaurant": {
+      "title": "Selected restaurant",
+      "empty": "No restaurant selected."
+    },
+    "loadingRestaurants": "Loading restaurants...",
+    "fields": {
+      "merchantId": {
+        "label": "Merchant ID",
+        "placeholder": "e.g. 123456",
+        "helper": "Przelewy24 merchant identifier (max 6 digits)",
+        "error": "Merchant ID must be between 0 and 999999"
+      },
+      "apiKey": {
+        "label": "P24 API Key",
+        "placeholder": "Enter Przelewy24 API key",
+        "helper": "Exactly 32 characters",
+        "error": "API key is required and must contain exactly 32 characters",
+        "show": "Show API key",
+        "hide": "Hide API key"
+      },
+      "crcKey": {
+        "label": "P24 CRC Key",
+        "placeholder": "Enter Przelewy24 CRC key",
+        "helper": "Exactly 16 characters",
+        "error": "CRC key is required and must contain exactly 16 characters",
+        "show": "Show CRC key",
+        "hide": "Hide CRC key"
+      },
+      "p24Merchantid": {
+        "error": "Merchant ID must be between 0 and 999999"
+      },
+      "p24Api": {
+        "error": "API key is required and must contain exactly 32 characters"
+      },
+      "p24Crc": {
+        "error": "CRC key is required and must contain exactly 16 characters"
+      }
+    },
+    "success": "P24 configuration updated successfully.",
+    "actions": {
+      "save": "Save Configuration",
+      "saving": "Saving..."
+    }
+  },
+  "transactions": {
+    "title": "Transaction List",
+    "description": "View transactions for the selected venue",
+    "list": {
+      "title": "Transactions (newest first)",
+      "loading": "Loading transactions...",
+      "selectTenant": "Select a restaurant to view transactions.",
+      "error": "Failed to load transactions. Please try again.",
+      "empty": "No transactions found for the selected venue.",
+      "paginationSummary": "Page {{page}} of {{pages}} · {{total}} transactions",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "fields": {
+      "status": "Status",
+      "orderId": "P24 order ID",
+      "note": "Note"
+    },
+    "status": {
+      "0": "Unpaid",
+      "1": "Unposted",
+      "2": "Payment accepted",
+      "3": "Refunded",
+      "unknown": "Unknown"
+    }
+  },
+  "qrGenerator": {
+    "title": "QR Code Generator",
+    "description": "Generate QR codes that redirect customers to your menu",
+    "loadingRestaurant": "Loading restaurant...",
+    "loadError": "Failed to load restaurants. Please try again later.",
+    "selectRestaurant": "Select a restaurant from the sidebar to generate its QR code.",
+    "loadTenantError": "Failed to load tenant details. Please try again later.",
+    "pageTitle": "{{name}} QR Codes",
+    "batchDownload": "Batch Download Table QR Codes",
+    "sectionTitle": "QR Codes",
+    "generatingMenu": "Generating QR code...",
+    "noTables": "No tables found in any floor. Add tables in Floor Editor to generate table QR codes.",
+    "noTablesOnFloor": "No tables on this floor.",
+    "generatingTables": "Generating QR codes for {{count}} tables..."
+  },
+  "qrPrint": {
+    "loadingRestaurant": "Loading restaurant...",
+    "loadError": "Failed to load restaurant. Please try again later.",
+    "noRestaurant": "No restaurant selected.",
+    "backToGenerator": "Back to QR Code Generator",
+    "noTablesTitle": "No tables found in the floor layout.",
+    "noTablesAction": "Go to Floor Editor to add tables",
+    "goBack": "Go Back",
+    "print": "Print",
+    "generating": "Generating QR codes...",
+    "generatingTables": "Generating QR codes for {{count}} tables..."
+  },
+  "qrDisplay": {
+    "goBack": "Go Back",
+    "print": "Print QR Code",
+    "generating": "Generating QR code...",
+    "qrAlt": "QR code for {{title}}"
+  },
+  "qrRow": {
+    "table": "Table {{table}}",
+    "restaurant": "Restaurant",
+    "qrAltTable": "QR code for table {{table}}",
+    "qrAltRestaurant": "QR code for restaurant",
+    "failed": "Failed to generate QR code"
+  },
+  "qrLoadingError": {
+    "default": "Failed to load QR code.",
+    "goBack": "Go back to QR Code Generator"
+  },
+  "restaurantsView": {
+    "add": "Add restaurant",
+    "empty": "No restaurants found.",
+    "floorCount": "{{count}} floor(s)",
+    "ariaLabel": "Open floor layout for {{name}}"
+  },
+  "restaurantCreator": {
+    "title": "Restaurant Creator",
+    "description": "Create a new restaurant tenant",
+    "actions": {
+      "create": "Create Restaurant",
+      "creating": "Creating..."
+    },
+    "fields": {
+      "name": {
+        "label": "Restaurant name",
+        "placeholder": "e.g. Bistro Nova",
+        "error": "Restaurant name is required."
+      },
+      "slug": {
+        "label": "Generated slug",
+        "empty": "Slug will be generated from restaurant name"
+      }
+    },
+    "profile": {
+      "title": "Add profile now (optional)",
+      "description": "Expand to fill required profile fields during creation.",
+      "show": "Expand",
+      "hide": "Collapse"
+    },
+    "duplicateName": {
+      "notice": "A restaurant with this name already exists. Please provide street and city to generate a unique slug."
+    },
+    "errors": {
+      "createFailed": "Failed to create restaurant. Please try again.",
+      "validationFailed": "Please fix the highlighted fields and try again.",
+      "profileSaveFailed": "Restaurant was created, but profile could not be saved."
+    },
+    "success": "Restaurant created successfully."
+  },
+  "restaurantQr": {
+    "generateError": "Failed to generate QR code for restaurant:",
+    "loadError": "Failed to load restaurant QR code.",
+    "subtitle": "Restaurant Menu"
+  },
+  "staff": {
+    "title": "Staff Management",
+    "description": "Manage kitchen, waiter, and other staff accounts",
+    "status": {
+      "active": "Activated",
+      "inactive": "Pending activation"
+    },
+    "accessLevels": {
+      "kitchen": "Kitchen",
+      "waiter": "Waiter"
+    },
+    "toggleForm": {
+      "show": "Add users",
+      "hide": "Cancel"
+    },
+    "form": {
+      "emailLabel": "Email",
+      "nameLabel": "Name",
+      "surnameLabel": "Surname",
+      "accessLabel": "Access level",
+      "addRow": "Add another",
+      "removeRow": "Remove",
+      "saveSingle": "Save this user",
+      "submit": "Save all",
+      "submitting": "Saving..."
+    },
+    "emptyState": {
+      "heading": "Let's start by adding new members to the team 🚀"
+    },
+    "list": {
+      "title": "All users",
+      "loading": "Loading users...",
+      "empty": "No users yet.",
+      "personLabel": "Name: {{name}} {{surname}}",
+      "notProvided": "-"
+    },
+    "validation": {
+      "invalidEmail": "One or more email addresses are invalid.",
+      "duplicateEmail": "Duplicate emails found. Each email must be unique.",
+      "existingEmail": "Already in this tenant: {{emails}}"
+    },
+    "toast": {
+      "bulkSuccessTitle": "Users added",
+      "bulkSuccessDescription": "All users created successfully. Activation emails will be sent shortly.",
+      "bulkSuccessAllWaiterNoticeDescription": "Everyone you added already had an account. We emailed them that they’ve been assigned to this restaurant and can choose it the next time they sign in to the waiter panel.",
+      "bulkSuccessAllLinkedDescription": "Everyone you added already had an account—they’re linked to this venue without sending another activation email.",
+      "bulkSuccessMixedNotificationsDescription": "Staff were added depending on account type: new accounts get activation emails; waiters who already had an account get an email about this restaurant and choosing it when they sign in to the waiter panel; others were linked without a separate notice email.",
+      "bulkPartialTitle": "Partial success",
+      "bulkPartialDescription": "{{created}} of {{total}} users created. Some failed — check the list for details.",
+      "bulkErrorTitle": "Could not add users",
+      "bulkErrorDescription": "Unable to create users.",
+      "singleSuccessTitle": "User added",
+      "singleSuccessDescription": "User created. Activation email will be sent shortly.",
+      "singleExistingWaiterDescription": "This email already has an account. We sent a message that they’ve been added to this restaurant and can pick it from the list the next time they log in to the waiter panel.",
+      "singleExistingLinkedDescription": "This email already has an account—they’ve been linked to this venue without another activation email.",
+      "singleErrorTitle": "Could not add user",
+      "singleErrorDescription": "Unable to create user.",
+      "deleteSuccessTitle": "User removed",
+      "deleteSuccessDescription": "User deleted successfully.",
+      "deleteErrorTitle": "Could not remove user",
+      "deleteErrorDescription": "Unable to delete user.",
+      "invalidEmail": "Enter a valid email address.",
+      "waiterNameRequired": "Name and surname are required for waiter."
+    },
+    "feedback": {
+      "bulkSuccess": "All users created successfully. Activation emails will be sent shortly.",
+      "bulkPartial": "{{created}} of {{total}} users created. Some failed — check the list for details.",
+      "bulkError": "Unable to create users.",
+      "createSuccess": "User created. Activation email should be sent shortly.",
+      "createError": "Unable to create user.",
+      "deleteSuccess": "User deleted successfully.",
+      "deleteError": "Unable to delete user."
+    },
+    "delete": {
+      "button": "Delete user",
+      "confirmTitle": "Delete this user?",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "deleting": "Deleting..."
+    },
+    "modal": {
+      "alreadyMemberTitle": "Already on the team",
+      "alreadyMemberDescription": "This email is already linked to this restaurant, so you can't add it again as staff.",
+      "ok": "OK",
+      "closeAria": "Close"
+    }
+  },
+  "tenantProfile": {
+    "title": "Tenant Profile",
+    "description": "Manage company details, contact information, and social media for your tenant",
+    "loadingTenants": "Loading tenants...",
+    "loadingProfile": "Loading profile...",
+    "selectedTenant": {
+      "title": "Selected tenant",
+      "empty": "No tenant selected."
+    },
+    "sections": {
+      "company": "Company Details",
+      "contact": "Restaurant Contact",
+      "address": "Address",
+      "owner": "Owner Details",
+      "contactPerson": "Contact Person",
+      "socials": "Social Media"
+    },
+    "fields": {
+      "nip": {
+        "label": "NIP",
+        "placeholder": "e.g. 1234567890",
+        "helper": "Tax identification number (exactly 10 digits)",
+        "error": "NIP must be exactly 10 digits"
+      },
+      "companyName": {
+        "label": "Company Name",
+        "placeholder": "Official registered company name",
+        "error": "Company name is required"
+      },
+      "logo": {
+        "label": "Logo",
+        "browse": "Choose file",
+        "placeholder": "https://example.com/logo.png",
+        "helper": "Upload a PNG, JPEG, or WEBP logo up to 5 MB.",
+        "uploading": "Uploading logo...",
+        "uploadError": "Failed to upload logo. Please try again.",
+        "invalidType": "Logo must be a PNG, JPEG, or WEBP image.",
+        "fileTooLarge": "Logo must be 5 MB or smaller.",
+        "current": "Current logo",
+        "previewAlt": "Tenant logo preview",
+        "error": "Invalid logo"
+      },
+      "contactEmail": {
+        "label": "Contact Email",
+        "placeholder": "restaurant@example.com",
+        "error": "Contact email is required"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+48 123 456 789",
+        "error": "Phone number is required"
+      },
+      "addressStreetName": {
+        "label": "Street Name",
+        "placeholder": "Main Street",
+        "error": "Street name is required"
+      },
+      "addressStreetNumber": {
+        "label": "Street Number",
+        "placeholder": "123A",
+        "error": "Street number is required"
+      },
+      "addressCity": {
+        "label": "City",
+        "placeholder": "Warsaw",
+        "error": "City is required"
+      },
+      "addressPostalCode": {
+        "label": "Postal Code",
+        "placeholder": "00-001",
+        "helper": "Polish format: XX-XXX",
+        "error": "Postal code must be in XX-XXX format"
+      },
+      "addressCountry": {
+        "label": "Country",
+        "placeholder": "Poland",
+        "error": "Country is required"
+      },
+      "ownerFirstName": {
+        "label": "First Name",
+        "placeholder": "John",
+        "error": "Owner first name is required"
+      },
+      "ownerLastName": {
+        "label": "Last Name",
+        "placeholder": "Smith",
+        "error": "Owner last name is required"
+      },
+      "ownerEmail": {
+        "label": "Email",
+        "placeholder": "owner@example.com",
+        "error": "Invalid owner email"
+      },
+      "ownerPhone": {
+        "label": "Phone",
+        "placeholder": "+48 123 456 789",
+        "error": "Invalid owner phone number"
+      },
+      "contactPersonFirstName": {
+        "label": "First Name",
+        "placeholder": "Jane",
+        "error": "Invalid contact person first name"
+      },
+      "contactPersonLastName": {
+        "label": "Last Name",
+        "placeholder": "Doe",
+        "error": "Invalid contact person last name"
+      },
+      "contactPersonEmail": {
+        "label": "Email",
+        "placeholder": "contact@example.com",
+        "error": "Invalid contact person email"
+      },
+      "contactPersonPhone": {
+        "label": "Phone",
+        "placeholder": "+48 123 456 789",
+        "error": "Invalid contact person phone number"
+      },
+      "socialFacebook": {
+        "label": "Facebook",
+        "placeholder": "https://facebook.com/yourrestaurant",
+        "error": "Invalid Facebook URL"
+      },
+      "socialInstagram": {
+        "label": "Instagram",
+        "placeholder": "https://instagram.com/yourrestaurant",
+        "error": "Invalid Instagram URL"
+      },
+      "socialTiktok": {
+        "label": "TikTok",
+        "placeholder": "https://tiktok.com/@yourrestaurant",
+        "error": "Invalid TikTok URL"
+      },
+      "socialWebsite": {
+        "label": "Website",
+        "placeholder": "https://yourrestaurant.com",
+        "error": "Invalid website URL"
+      }
+    },
+    "errors": {
+      "loadTenants": "Failed to load tenants. Please refresh and try again.",
+      "selectTenant": "Select a tenant from the header dropdown.",
+      "saveFailed": "Failed to save tenant profile. Please try again.",
+      "validationFailed": "Please fix the highlighted fields and try again."
+    },
+    "success": "Tenant profile saved successfully.",
+    "actions": {
+      "save": "Save Profile",
+      "saving": "Saving..."
+    }
+  },
+  "onboarding": {
+    "title": "Create your first restaurant",
+    "description": "To get started, add your first restaurant. You can always add more later.",
+    "fields": {
+      "name": {
+        "label": "Restaurant name",
+        "placeholder": "e.g. Bella Italia",
+        "error": "Restaurant name is required"
+      },
+      "street": {
+        "label": "Street",
+        "placeholder": "e.g. Main Street",
+        "error": "Street is required"
+      },
+      "streetNumber": {
+        "label": "Number",
+        "placeholder": "e.g. 12",
+        "error": "Number is required"
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "e.g. Warsaw",
+        "error": "City is required"
+      }
+    },
+    "actions": {
+      "create": "Create restaurant",
+      "creating": "Creating..."
+    },
+    "errors": {
+      "createFailed": "Failed to create restaurant. Please try again."
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "common": {
+    "skipToContent": "Skip to main content",
+    "loading": "Loading...",
+    "error": "Error",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "close": "Close"
+  },
+  "kitchen": {
+    "title": "Kitchen Orders",
+    "activeRestaurant": "Active restaurant: {{name}}",
+    "selectRestaurant": "Select a restaurant to begin.",
+    "restaurant": "Restaurant",
+    "items": "Items",
+    "notes": "Notes:",
+    "invoice": {
+      "title": "VAT invoice (Faktura)",
+      "company": "Company",
+      "nip": "NIP",
+      "address": "Address"
+    },
+    "orderSummary": "{{table}} · {{count}} items",
+    "itemQuantity": "{{quantity}}x {{name}}",
+    "viewMode": {
+      "all": "All View",
+      "sliding": "Sliding"
+    },
+    "history": {
+      "open": "History",
+      "title": "Completed Orders",
+      "description": "Archived kitchen orders are fetched only while this panel is open.",
+      "windowLabel": "History range",
+      "empty": "No archived orders found for the selected time range.",
+      "unknownTable": "Unknown table",
+      "archivedAt": "Archived: {{value}}",
+      "previous": "Previous",
+      "next": "Next",
+      "paginationSummary": "{{total}} orders · page {{page}} of {{pages}}",
+      "windows": {
+        "last24h": "Last 24h",
+        "last72h": "Last 72h",
+        "last7d": "Last 7 days",
+        "all": "All time"
+      }
+    }
+  },
+  "orders": {
+    "status": {
+      "new": "New",
+      "preparing": "Preparing",
+      "ready": "Ready",
+      "readyToServe": "Ready to Serve",
+      "rejected": "Rejected",
+      "refunded": "Refunded",
+      "paid": "Paid",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled",
+      "unknown": "Unknown"
+    },
+    "errors": {
+      "invalidTransition": "Cannot change status from {{from}} to {{to}}.",
+      "statusUpdateFailed": "Could not update order status."
+    },
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "markReadyToServe": "Ready to Serve",
+      "refund": "Refund"
+    }
+  },
+  "aria": {
+    "kitchenControls": "Kitchen panel controls",
+    "switchViewMode": "Switch to {{mode}} view",
+    "ordersBoard": "Kitchen orders board",
+    "toggleOrderDetails": "Toggle details for order {{id}}",
+    "dragOrder": "Drag order {{id}}",
+    "moveOrderUp": "Move {{id}} up",
+    "moveOrderDown": "Move {{id}} down",
+    "newOrders": "New orders",
+    "preparingOrders": "Preparing orders",
+    "readyOrders": "Ready for pickup",
+    "readyToServeOrders": "Ready to serve orders",
+    "rejectedOrders": "Rejected orders"
+  },
+  "restaurants": {
+    "demo": {
+      "north": {
+        "name": "Restorio North",
+        "description": "North Hall Location",
+        "city": "Demo City",
+        "country": "Demo Country"
+      },
+      "east": {
+        "name": "Restorio East",
+        "description": "East Wing Location",
+        "city": "Demo City",
+        "country": "Demo Country"
+      },
+      "main": {
+        "name": "Restorio Main",
+        "description": "Main Location",
+        "city": "Demo City",
+        "country": "Demo Country"
+      }
+    }
+  },
+  "errors": {
+    "rootElementNotFound": "Root element not found"
+  }
+}

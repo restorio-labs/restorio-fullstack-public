@@ -1,0 +1,15 @@
+{
+  "name": "restorio-public-web",
+  "account_id": "3a2ad072cf9853e538e5d0921d6d6a3b",
+  "compatibility_date": "2026-02-12",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "worker/index.ts",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    { "pattern": "restorio.org/*", "zone_name": "restorio.org" },
+    { "pattern": "www.restorio.org/*", "zone_name": "restorio.org" }
+  ]
+}

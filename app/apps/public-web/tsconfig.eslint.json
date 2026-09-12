@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "next-env.d.ts",
+    "tailwind.config.ts",
+    "vite.config.ts",
+    "vitest.config.ts",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "proxy.ts",
+    "open-next.config.ts",
+    "worker/**/*.ts"
+  ],
+  "exclude": ["postcss.config.cjs"]
+}

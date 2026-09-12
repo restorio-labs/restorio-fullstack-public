@@ -1,0 +1,97 @@
+services:
+  api:
+    build:
+      context: ./app/api
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/api:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=${COMPOSE_DATABASE_URL:-mongodb://mongo:27017/restorio}
+      - MONGODB_USERNAME=${MONGODB_USERNAME:-}
+      - MONGODB_PASSWORD=${MONGODB_PASSWORD:-}
+      - POSTGRES_DSN=${COMPOSE_POSTGRES_DSN:-postgresql://restorio:restorio@postgres:5432/restorio}
+      - RESEND_API_KEY=${RESEND_API_KEY:-}
+      - RESEND_FROM_EMAIL=${RESEND_FROM_EMAIL:-}
+      - MINIO_ENDPOINT=${COMPOSE_MINIO_ENDPOINT:-minio:9000}
+      - MINIO_PUBLIC_ENDPOINT=${MINIO_PUBLIC_ENDPOINT:-localhost:9000}
+      - MINIO_PUBLIC_SECURE=${MINIO_PUBLIC_SECURE:-false}
+      - MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY:-minioadmin}
+      - MINIO_SECRET_KEY=${MINIO_SECRET_KEY:-minioadmin}
+      - MINIO_BUCKET=${MINIO_BUCKET:-restorio-media}
+      - MINIO_REGION=${MINIO_REGION:-us-east-1}
+      - MINIO_SECURE=${MINIO_SECURE:-false}
+      - MINIO_PRESIGN_EXPIRY_SECONDS=${MINIO_PRESIGN_EXPIRY_SECONDS:-900}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongo:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    command: >
+      sh -c '
+      uv run alembic upgrade head &&
+      uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+      '
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: restorio-postgres-dev
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB:-restorio}
+      - POSTGRES_USER=${POSTGRES_USER:-restorio}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-restorio}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data-dev:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  mongo:
+    image: mongo:7
+    container_name: restorio-mongo-dev
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGODB_USERNAME:-}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_PASSWORD:-}
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data-dev:/data/db
+    command: ["sh", "-c", "if [ -n \"$$MONGO_INITDB_ROOT_USERNAME\" ]; then exec mongod --quiet --logpath /dev/null --auth; else exec mongod --quiet --logpath /dev/null; fi"]
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  minio:
+    image: minio/minio:latest
+    container_name: restorio-minio-dev
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      - MINIO_ROOT_USER=${MINIO_ACCESS_KEY:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_SECRET_KEY:-minioadmin}
+      - MINIO_API_CORS_ALLOW_ORIGIN=${MINIO_API_CORS_ALLOW_ORIGIN:-http://localhost:3000,http://localhost:3001,http://localhost:3002,http://localhost:3003,http://localhost:3004}
+    volumes:
+      - minio-data-dev:/data
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+volumes:
+  postgres-data-dev:
+  mongo-data-dev:
+  minio-data-dev:

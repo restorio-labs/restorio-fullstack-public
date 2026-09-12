@@ -1,0 +1,177 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "close": "Close",
+    "open": "Open",
+    "loading": "Loading..."
+  },
+  "app": {
+    "title": "UI Demo",
+    "description": "Browse component examples and interact with the design system"
+  },
+  "theme": {
+    "current": "Theme: {{current}} → {{next}}"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "primitives": "Primitives",
+    "inputs": "Inputs",
+    "forms": "Forms",
+    "overlays": "Overlays",
+    "feedback": "Feedback",
+    "layouts": "Layouts",
+    "domain": "Domain"
+  },
+  "components": {
+    "box": "Box",
+    "stack": "Stack",
+    "text": "Text",
+    "button": "Button",
+    "icon": "Icon",
+    "card": "Card",
+    "input": "Input",
+    "select": "Select",
+    "checkbox": "Checkbox",
+    "switch": "Switch",
+    "textarea": "Textarea",
+    "emptyState": "EmptyState",
+    "loader": "Loader",
+    "skeleton": "Skeleton",
+    "dropdown": "Dropdown",
+    "tooltip": "Tooltip",
+    "modal": "Modal",
+    "toast": "Toast"
+  },
+  "overview": {
+    "title": "Restorio UI demo",
+    "subtitle": "Browse component examples and interact with the design system.",
+    "quickLinks": "Quick links",
+    "links": {
+      "buttons": "Buttons",
+      "inputs": "Inputs",
+      "overlays": "Overlays",
+      "feedback": "Feedback"
+    },
+    "included": "What is included",
+    "description": "A comprehensive design system with primitives, inputs, overlays, feedback components, and domain-specific components for restaurant management."
+  },
+  "button": {
+    "title": "Button",
+    "description": "Variants, sizes, disabled states, and full-width options.",
+    "variants": "Variants",
+    "sizes": "Sizes",
+    "fullWidth": "Full width",
+    "fullWidthDescription": "Expand to container",
+    "labels": {
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "danger": "Danger",
+      "disabled": "Disabled",
+      "small": "SM",
+      "medium": "MD",
+      "large": "LG"
+    }
+  },
+  "input": {
+    "title": "Input",
+    "description": "Text inputs with labels, placeholders, helper text, and error states.",
+    "controlled": "Controlled",
+    "states": "States",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "disabled": "Disabled",
+      "error": "With error"
+    },
+    "placeholders": {
+      "name": "Jane Doe",
+      "email": "name@example.com",
+      "disabled": "Disabled input",
+      "error": "Invalid value"
+    },
+    "helperText": "We will never share your email.",
+    "errorText": "This field is required"
+  },
+  "modal": {
+    "title": "Modal",
+    "description": "Dialog component with size options and overlay backdrop.",
+    "openButton": "Open {{size}}",
+    "modalTitle": "Modal size: {{size}}",
+    "modalDescription": "Use modals for critical flows that require user attention and confirmation.",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "toast": {
+    "title": "Toast",
+    "description": "Inline notifications with variants and dismissible actions.",
+    "showButton": "Show {{variant}}",
+    "toastTitle": "{{variant}} toast",
+    "toastMessage": "Changes saved successfully.",
+    "toastDescription": "Detailed message for this toast.",
+    "dismiss": "Dismiss"
+  },
+  "select": {
+    "title": "Select",
+    "description": "Dropdown select with options, labels, and error states.",
+    "placeholder": "Select an option",
+    "options": {
+      "option1": "Option 1",
+      "option2": "Option 2",
+      "option3": "Option 3"
+    }
+  },
+  "checkbox": {
+    "title": "Checkbox",
+    "description": "Checkbox inputs with labels and states.",
+    "labels": {
+      "agree": "I agree to the terms",
+      "subscribe": "Subscribe to newsletter",
+      "disabled": "Disabled option"
+    }
+  },
+  "switch": {
+    "title": "Switch",
+    "description": "Toggle switch for boolean settings.",
+    "labels": {
+      "notifications": "Enable notifications",
+      "darkMode": "Dark mode",
+      "disabled": "Disabled"
+    }
+  },
+  "dropdown": {
+    "title": "Dropdown",
+    "description": "Contextual menu with items and actions.",
+    "trigger": "Open menu",
+    "items": {
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "archive": "Archive",
+      "delete": "Delete"
+    }
+  },
+  "tooltip": {
+    "title": "Tooltip",
+    "description": "Contextual hints on hover or focus.",
+    "content": "This is a helpful tooltip",
+    "trigger": "Hover me"
+  },
+  "loader": {
+    "title": "Loader",
+    "description": "Loading spinners in various sizes.",
+    "sizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    }
+  },
+  "emptyState": {
+    "title": "EmptyState",
+    "description": "Placeholder for empty data states.",
+    "exampleTitle": "No items found",
+    "exampleDescription": "Get started by creating your first item.",
+    "exampleAction": "Create item"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "@restorio/admin-panel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3001",
+    "build": "tsc && vite build",
+    "clean": "rm -rf dist && rm -rf node_modules",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:unit": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" && eslint . --fix",
+    "check": "prettier --check \"**/*.{ts,tsx,json,md}\" && eslint . --ext ts,tsx"
+  },
+  "dependencies": {
+    "@restorio/api-client": "workspace:*",
+    "@restorio/auth": "workspace:*",
+    "@restorio/types": "workspace:*",
+    "@restorio/ui": "workspace:*",
+    "@restorio/utils": "workspace:*",
+    "@tanstack/react-query": "^5.90.21",
+    "@tanstack/react-virtual": "^3.13.21",
+    "qrcode": "^1.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.71.2",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^6.21.1",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "jsdom": "^23.0.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.9",
+    "vite": "^7.3.2"
+  }
+}

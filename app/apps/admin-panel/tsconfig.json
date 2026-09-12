@@ -1,0 +1,33 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
+
+    "jsx": "react-jsx",
+
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    "strict": true,
+
+    "paths": { 
+      "@/*": ["./src/*"],
+      "@restorio/utils": ["../../packages/utils/src"]
+    }
+  },
+  "include": ["src", "vite.config.ts", "../../tooling/viteInjectVersion.ts"],
+  "exclude": ["node_modules", "dist", "postcss.config.cjs"],
+  "references": [
+    { "path": "../../packages/types" },
+    { "path": "../../packages/auth" },
+    { "path": "../../packages/api-client" },
+    { "path": "../../packages/ui" },
+    { "path": "../../packages/utils" }
+  ]
+}

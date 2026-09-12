@@ -1,0 +1,140 @@
+{
+  "common": {
+    "skipToContent": "Przejdź do głównej treści",
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "save": "Zapisz",
+    "close": "Zamknij",
+    "items": "pozycji",
+    "refresh": "Odśwież"
+  },
+  "tenantSelect": {
+    "title": "Restauracje",
+    "description": "Wybierz restaurację, aby otworzyć panel kuchni.",
+    "loading": "Ładowanie listy restauracji…",
+    "loadError": "Nie udało się wczytać restauracji.",
+    "none": "Brak przypisanych restauracji dla tego konta."
+  },
+  "kitchen": {
+    "title": "Zamówienia Kuchni",
+    "activeRestaurant": "Aktywna restauracja: {{name}}",
+    "selectRestaurant": "Wybierz restaurację, aby rozpocząć.",
+    "restaurant": "Restauracja",
+    "items": "Pozycje",
+    "notes": "Notatki:",
+    "invoice": {
+      "title": "Faktura VAT",
+      "company": "Firma",
+      "nip": "NIP",
+      "address": "Adres"
+    },
+    "orderSummary": "{{table}} · {{count}} pozycji",
+    "itemQuantity": "{{quantity}}x {{name}}",
+    "viewMode": {
+      "all": "Widok Wszystkich",
+      "sliding": "Przesuwany"
+    },
+    "history": {
+      "open": "Historia",
+      "title": "Zakończone zamówienia",
+      "description": "Archiwalne zamówienia kuchni są pobierane tylko wtedy, gdy ten panel jest otwarty.",
+      "windowLabel": "Zakres historii",
+      "empty": "Brak zarchiwizowanych zamówień dla wybranego zakresu czasu.",
+      "unknownTable": "Nieznany stolik",
+      "archivedAt": "Zarchiwizowano: {{value}}",
+      "previous": "Poprzednia",
+      "next": "Następna",
+      "paginationSummary": "{{total}} zamówień · strona {{page}} z {{pages}}",
+      "windows": {
+        "last24h": "Ostatnie 24h",
+        "last72h": "Ostatnie 72h",
+        "last7d": "Ostatnie 7 dni",
+        "all": "Cały okres"
+      }
+    }
+  },
+  "chooseApp": {
+    "title": "Jesteś zalogowany",
+    "subtitle": "Wybierz, dokąd chcesz przejść dalej.",
+    "labels": {
+      "adminPanel": "Panel administracyjny",
+      "kitchenPanel": "Panel kuchni",
+      "waiterPanel": "Panel kelnerski"
+    }
+  },
+  "orders": {
+    "status": {
+      "new": "Nowe",
+      "preparing": "W przygotowaniu",
+      "ready": "Gotowe",
+      "readyToServe": "Do wydania",
+      "rejected": "Odrzucone",
+      "refunded": "Zwrócone",
+      "paid": "Opłacone",
+      "pending": "Oczekujące",
+      "confirmed": "Potwierdzone",
+      "delivered": "Dostarczone",
+      "cancelled": "Anulowane",
+      "unknown": "Nieznany"
+    },
+    "errors": {
+      "invalidTransition": "Nie można zmienić statusu z {{from}} na {{to}}.",
+      "statusUpdateFailed": "Nie udało się zaktualizować statusu zamówienia."
+    },
+    "actions": {
+      "approve": "Zatwierdź",
+      "reject": "Odrzuć",
+      "markReadyToServe": "Do wydania",
+      "refund": "Zwrot"
+    },
+    "rejection": {
+      "title": "Powód odrzucenia",
+      "selectReason": "Wybierz powód odrzucenia",
+      "customReason": "Inny powód",
+      "confirm": "Potwierdź odrzucenie"
+    }
+  },
+  "menu": {
+    "title": "Dostępność Menu",
+    "description": "Zarządzaj dostępnością pozycji w menu",
+    "available": "Dostępne",
+    "unavailable": "Niedostępne",
+    "toggleAvailability": "Zmień dostępność",
+    "noMenu": "Brak menu do wyświetlenia",
+    "loading": "Ładowanie menu..."
+  },
+  "ws": {
+    "connected": "Połączono",
+    "disconnected": "Rozłączono",
+    "reconnecting": "Ponowne łączenie..."
+  },
+  "aria": {
+    "kitchenControls": "Elementy sterowania panelem kuchni",
+    "switchViewMode": "Przełącz na widok {{mode}}",
+    "ordersBoard": "Tablica zamówień kuchni",
+    "toggleOrderDetails": "Przełącz szczegóły zamówienia {{id}}",
+    "dragOrder": "Przeciągnij zamówienie {{id}}",
+    "moveOrderUp": "Przesuń {{id}} w górę",
+    "moveOrderDown": "Przesuń {{id}} w dół",
+    "newOrders": "Nowe zamówienia",
+    "preparingOrders": "Zamówienia w przygotowaniu",
+    "readyOrders": "Gotowe do odbioru",
+    "readyToServeOrders": "Zamówienia do wydania",
+    "rejectedOrders": "Odrzucone zamówienia",
+    "refundedOrders": "Zwrócone zamówienia",
+    "kitchenNavigation": "Nawigacja kuchni",
+    "ordersNav": "Zamówienia",
+    "menuNav": "Menu"
+  },
+  "nav": {
+    "orders": "Zamówienia",
+    "menu": "Menu"
+  },
+  "errors": {
+    "rootElementNotFound": "Nie znaleziono elementu głównego",
+    "loadOrdersFailed": "Nie udało się załadować zamówień",
+    "updateStatusFailed": "Nie udało się zaktualizować statusu zamówienia"
+  }
+}

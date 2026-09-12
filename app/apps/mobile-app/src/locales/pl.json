@@ -1,0 +1,147 @@
+{
+  "common": {
+    "skipToContent": "Przejdź do treści",
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "currency": "zł",
+    "tryAgain": "Spróbuj ponownie",
+    "checkAgain": "Sprawdź ponownie"
+  },
+  "app": {
+    "title": "Zamówienie"
+  },
+  "errors": {
+    "rootElementNotFound": "Nie znaleziono elementu głównego"
+  },
+  "deviceGate": {
+    "title": "Użyj telefonu lub tabletu",
+    "description": "Ta strona jest dostępna tylko na telefonach i tabletach."
+  },
+  "nav": {
+    "railAria": "Nawigacja główna",
+    "homeAria": "Strona główna"
+  },
+  "themeSwitcher": {
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "ariaLabel": "Aktualny motyw: {{theme}}. Kliknij, aby zmienić."
+  },
+  "order": {
+    "invalidLinkTitle": "Nieprawidłowy link",
+    "invalidLinkDescription": "Zeskanuj kod QR ponownie.",
+    "loadingMenu": "Ładowanie menu...",
+    "loadErrorTitle": "Nie udało się załadować",
+    "loadErrorDescription": "Sprawdź połączenie z internetem i spróbuj ponownie.",
+    "reload": "Odśwież stronę",
+    "emptyMenuTitle": "Menu jest puste",
+    "emptyMenuDescription": "Restauracja nie ma jeszcze pozycji w menu.",
+    "tableLabel": "Stolik {{number}}",
+    "cartButton": "Koszyk ({{count}}) · {{amount}} {{currency}}",
+    "summaryTitle": "Podsumowanie",
+    "promotedBadge": "Polecane"
+  },
+  "checkout": {
+    "emailLabel": "Adres e-mail",
+    "emailPlaceholder": "twoj@email.pl",
+    "emailRequired": "Adres e-mail jest wymagany",
+    "emailInvalid": "Podaj poprawny adres e-mail",
+    "noteLabel": "Uwagi do zamówienia (opcjonalnie)",
+    "notePlaceholder": "np. bez cebuli, dodatkowy sos...",
+    "payProcessing": "Przetwarzanie...",
+    "payButton": "Zapłać {{amount}} {{currency}}",
+    "paymentFailed": "Nie udało się przetworzyć płatności. Spróbuj ponownie.",
+    "invoice": {
+      "wantInvoice": "Chcę fakturę VAT",
+      "companyNameLabel": "Nazwa firmy",
+      "companyNamePlaceholder": "Firma Sp. z o.o.",
+      "companyNameRequired": "Nazwa firmy jest wymagana",
+      "nipLabel": "NIP",
+      "nipPlaceholder": "1234567890",
+      "nipRequired": "NIP jest wymagany",
+      "nipInvalid": "Podaj poprawny numer NIP",
+      "streetLabel": "Ulica i numer",
+      "streetPlaceholder": "ul. Przykładowa 123/4",
+      "streetRequired": "Adres jest wymagany",
+      "cityLabel": "Miasto",
+      "cityPlaceholder": "Warszawa",
+      "cityRequired": "Miasto jest wymagane",
+      "postalCodeLabel": "Kod pocztowy",
+      "postalCodePlaceholder": "00-000",
+      "postalCodeRequired": "Kod pocztowy jest wymagany",
+      "postalCodeInvalid": "Podaj poprawny kod pocztowy (XX-XXX)"
+    }
+  },
+  "cart": {
+    "empty": "Koszyk jest pusty. Dodaj pozycje z menu.",
+    "title": "Twoje zamówienie",
+    "lessAria": "Mniej: {{name}}",
+    "moreAria": "Więcej: {{name}}",
+    "linePrice": "{{price}} {{currency}} × {{quantity}}",
+    "netAmount": "Kwota netto",
+    "vatAmount": "VAT ({{rate}}%)",
+    "total": "Razem"
+  },
+  "menuItem": {
+    "addAria": "Dodaj {{name}}",
+    "removeAria": "Usuń {{name}}",
+    "openDetailsAria": "Szczegóły: {{name}}",
+    "closeDetailsModal": "Zamknij",
+    "tapForDescription": "Dotknij, aby zobaczyć opis",
+    "noDescription": "Brak opisu dla tej pozycji."
+  },
+  "landing": {
+    "defaultSubtitle": "Zobacz menu lub dostępność stolików zanim usiądziesz.",
+    "ctaTables": "Dostępność stolików i układ sali",
+    "ctaMenu": "Zobacz menu",
+    "navTables": "Stoliki",
+    "navMenu": "Menu",
+    "navHome": "Start",
+    "quickNavAria": "Szybka nawigacja"
+  },
+  "tables": {
+    "loading": "Ładowanie planu sali…",
+    "subtitle": "Status na żywo z planu lokalu",
+    "back": "Wstecz",
+    "statusOpen": "Wolny",
+    "statusClosed": "Zajęty",
+    "noLayoutTitle": "Brak planu sali",
+    "noLayoutDescription": "Ta restauracja nie opublikowała jeszcze układu stolików.",
+    "listTitle": "Wszystkie stoliki",
+    "reservedModalTitle": "Stolik zajęty",
+    "reservedModalBody": "Ten stolik jest teraz niedostępny. Po odliczeniu zaktualizujemy widok sali.",
+    "reservedCountdown": "Pozostało: {{time}}"
+  },
+  "menuBrowse": {
+    "back": "Wstecz",
+    "subtitle": "Przeglądaj dania i ceny"
+  },
+  "paymentReturn": {
+    "noPaymentDataTitle": "Brak danych płatności",
+    "noPaymentSession": "Nie można ustalić sesji płatności. Wróć do menu z kodu QR i spróbuj ponownie.",
+    "checkingStatus": "Sprawdzanie statusu płatności…",
+    "errorTitle": "Błąd sprawdzania",
+    "checkStatusErrorFallback": "Nie udało się sprawdzić statusu płatności.",
+    "title": "Dziękujemy!",
+    "description": "Twoje zamówienie zostało przyjęte. Płatność jest przetwarzana przez Przelewy24.",
+    "closeHint": "Możesz zamknąć tę stronę.",
+    "statusChangeHint": "Status może się zmienić po chwili — możesz odświeżyć albo zamknąć stronę i wrócić później.",
+    "status": {
+      "success": {
+        "title": "Dziękujemy!",
+        "description": "Płatność została zaksięgowana. Twoje zamówienie jest przyjęte."
+      },
+      "pending": {
+        "title": "Płatność w trakcie realizacji",
+        "description": "Trwa potwierdzanie płatności. Może to chwilę potrwać — użyj Sprawdź ponownie, jeśli status się nie zmieni."
+      },
+      "refunded": {
+        "title": "Zwrot płatności",
+        "description": "Ta transakcja została zwrócona."
+      },
+      "unfinished": {
+        "title": "Płatność nieukończona",
+        "description": "Nie udało się potwierdzić płatności. Jeśli środki zostały pobrane, skontaktuj się z obsługą Przelewy24."
+      }
+    }
+  }
+}

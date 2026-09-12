@@ -1,0 +1,152 @@
+{
+  "common": {
+    "skipToContent": "Skip to main content",
+    "loading": "Loading...",
+    "error": "Error",
+    "currency": "PLN",
+    "tryAgain": "Try again",
+    "checkAgain": "Check again"
+  },
+  "app": {
+    "title": "Order"
+  },
+  "errors": {
+    "rootElementNotFound": "Root element not found"
+  },
+  "deviceGate": {
+    "title": "Use a phone or tablet",
+    "description": "This page is only available on mobile devices and tablets."
+  },
+  "nav": {
+    "railAria": "Main navigation",
+    "homeAria": "Home"
+  },
+  "themeSwitcher": {
+    "light": "Light",
+    "dark": "Dark",
+    "ariaLabel": "Current theme: {{theme}}. Click to switch."
+  },
+  "order": {
+    "invalidLinkTitle": "Invalid link",
+    "invalidLinkDescription": "Scan the QR code again.",
+    "loadingMenu": "Loading menu...",
+    "loadErrorTitle": "Could not load",
+    "loadErrorDescription": "Check your internet connection and try again.",
+    "reload": "Reload page",
+    "emptyMenuTitle": "Menu is empty",
+    "emptyMenuDescription": "This restaurant has no menu items yet.",
+    "tableLabel": "Table {{number}}",
+    "cartButton": "Cart ({{count}}) · {{amount}} {{currency}}",
+    "summaryTitle": "Summary",
+    "promotedBadge": "Featured"
+  },
+  "checkout": {
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Enter a valid email address",
+    "noteLabel": "Order notes (optional)",
+    "notePlaceholder": "e.g. no onions, extra sauce…",
+    "payProcessing": "Processing...",
+    "payButton": "Pay {{amount}} {{currency}}",
+    "paymentFailed": "Payment could not be processed. Please try again.",
+    "invoice": {
+      "wantInvoice": "I need a VAT invoice (Faktura)",
+      "companyNameLabel": "Company name",
+      "companyNamePlaceholder": "Company Ltd.",
+      "companyNameRequired": "Company name is required",
+      "nipLabel": "NIP (Tax ID)",
+      "nipPlaceholder": "1234567890",
+      "nipRequired": "NIP is required",
+      "nipInvalid": "Enter a valid NIP number",
+      "streetLabel": "Street address",
+      "streetPlaceholder": "ul. Example 123/4",
+      "streetRequired": "Street address is required",
+      "cityLabel": "City",
+      "cityPlaceholder": "Warsaw",
+      "cityRequired": "City is required",
+      "postalCodeLabel": "Postal code",
+      "postalCodePlaceholder": "00-000",
+      "postalCodeRequired": "Postal code is required",
+      "postalCodeInvalid": "Enter a valid postal code (XX-XXX)"
+    }
+  },
+  "cart": {
+    "empty": "Your cart is empty. Add items from the menu.",
+    "title": "Your order",
+    "lessAria": "Decrease: {{name}}",
+    "moreAria": "Increase: {{name}}",
+    "linePrice": "{{price}} {{currency}} × {{quantity}}",
+    "netAmount": "Net amount",
+    "vatAmount": "VAT ({{rate}}%)",
+    "total": "Total"
+  },
+  "menuItem": {
+    "addAria": "Add {{name}}",
+    "removeAria": "Remove {{name}}",
+    "openDetailsAria": "View details: {{name}}",
+    "closeDetailsModal": "Close",
+    "tapForDescription": "Tap for full description",
+    "noDescription": "No description was added for this item."
+  },
+  "root": {
+    "noRestaurantTitle": "No restaurant yet",
+    "noRestaurantDescription": "Open this app from a restaurant QR code, or visit a restaurant link you used before.",
+    "scanHint": "We remember the last place you opened — next time you land here you will be redirected automatically."
+  },
+  "landing": {
+    "defaultSubtitle": "Browse the menu or check table availability before you sit down.",
+    "ctaTables": "Table availability & layout",
+    "ctaMenu": "View menu",
+    "navTables": "Tables",
+    "navMenu": "Menu",
+    "navHome": "Home",
+    "quickNavAria": "Quick navigation"
+  },
+  "tables": {
+    "loading": "Loading table layout…",
+    "subtitle": "Live availability from the floor plan",
+    "back": "Back",
+    "statusOpen": "Open",
+    "statusClosed": "Closed",
+    "noLayoutTitle": "No floor layout",
+    "noLayoutDescription": "This restaurant has not published a table layout yet.",
+    "listTitle": "All tables",
+    "reservedModalTitle": "Table in use",
+    "reservedModalBody": "This table is not available right now. We will refresh the layout when the countdown ends.",
+    "reservedCountdown": "{{time}} left"
+  },
+  "menuBrowse": {
+    "back": "Back",
+    "subtitle": "Browse dishes and prices"
+  },
+  "paymentReturn": {
+    "noPaymentDataTitle": "No payment data",
+    "noPaymentSession": "Could not determine the payment session. Return to the menu from the QR code and try again.",
+    "checkingStatus": "Checking payment status…",
+    "errorTitle": "Status check failed",
+    "checkStatusErrorFallback": "Could not check payment status.",
+    "title": "Thank you!",
+    "description": "Your order was received. Payment is being processed by Przelewy24.",
+    "closeHint": "You can close this page.",
+    "statusChangeHint": "The status may update shortly — you can refresh or close the page and come back later.",
+    "status": {
+      "success": {
+        "title": "Thank you!",
+        "description": "Payment was received. Your order is confirmed."
+      },
+      "pending": {
+        "title": "Payment processing",
+        "description": "Your payment is being confirmed. This may take a moment — use Check again if the status does not update."
+      },
+      "refunded": {
+        "title": "Payment refunded",
+        "description": "This transaction was refunded."
+      },
+      "unfinished": {
+        "title": "Payment incomplete",
+        "description": "Payment could not be confirmed. If money was taken, contact Przelewy24 support."
+      }
+    }
+  }
+}

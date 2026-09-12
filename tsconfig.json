@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    { "path": "./app/packages/types" },
+    { "path": "./app/packages/auth" },
+    { "path": "./app/packages/api-client" },
+    { "path": "./app/packages/ui" },
+    { "path": "./app/apps/public-web" },
+    { "path": "./app/apps/admin-panel" },
+    { "path": "./app/apps/kitchen-panel" },
+    { "path": "./app/apps/mobile-app" },
+    { "path": "./app/apps/ui-demo" }
+  ]
+}

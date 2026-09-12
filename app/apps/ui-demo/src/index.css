@@ -1,0 +1,15 @@
+@import "@restorio/ui/styles";
+
+@layer components {
+  .card {
+    @apply bg-surface-primary border border-border-default rounded-lg shadow-sm;
+  }
+
+  .card-header {
+    @apply px-4 py-3 border-b border-border-default text-lg font-semibold text-text-primary;
+  }
+
+  .card-body {
+    @apply p-4 text-text-primary;
+  }
+}

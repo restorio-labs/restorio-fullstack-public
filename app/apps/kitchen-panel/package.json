@@ -1,0 +1,46 @@
+{
+  "name": "@restorio/kitchen-panel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3002",
+    "build": "tsc && vite build",
+    "clean": "rm -rf dist && rm -rf node_modules",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:unit": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" && eslint . --fix",
+    "check": "prettier --check \"**/*.{ts,tsx,json,md}\" && eslint . --ext ts,tsx"
+  },
+  "dependencies": {
+    "@restorio/api-client": "workspace:*",
+    "@restorio/auth": "workspace:*",
+    "@restorio/types": "workspace:*",
+    "@restorio/ui": "workspace:*",
+    "@restorio/utils": "workspace:*",
+    "@tanstack/react-query": "^5.90.21",
+    "@tanstack/react-virtual": "^3.13.21",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.71.2",
+    "react-router-dom": "^6.21.1",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^5.9",
+    "vite": "^8.0.0",
+    "eslint": "^8.56.0",
+    "vitest": "^4.0.16",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5",
+    "jsdom": "^23.0.1",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules
+dist
+build
+.next
+coverage
+*.config.js
+*.eslintrc.cjs
+e2e
+bun.lockb
+package-lock.json
+*.log
+*.md
+postcss.config.js

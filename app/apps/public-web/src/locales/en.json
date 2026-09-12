@@ -1,0 +1,392 @@
+{
+  "common": {
+    "skipToContent": "Skip to main content",
+    "loading": "Loading...",
+    "error": "Error",
+    "learnMore": "Learn More",
+    "backendUnavailable": "The service is temporarily unavailable. Please try again later.",
+    "tryingToConnect": "Trying to reach our services…"
+  },
+  "metadata": {
+    "title": "Restorio Platform",
+    "description": "Restaurant Management Platform",
+    "pages": {
+      "home": {
+        "title": "Home",
+        "description": "Welcome to Restorio Platform."
+      },
+      "about": {
+        "title": "About Us",
+        "description": "Learn about the mission and goals of the Restorio Platform."
+      },
+      "login": {
+        "title": "Log in",
+        "description": "Log in to your Restorio account."
+      },
+      "register": {
+        "title": "Register your account",
+        "description": "Create your Restorio account."
+      },
+      "activate": {
+        "title": "Activate Account",
+        "description": "Activate your Restorio account."
+      },
+      "forgotPassword": {
+        "title": "Reset password",
+        "description": "Enter your email to receive a password reset link."
+      },
+      "resetPassword": {
+        "title": "Set a new password",
+        "description": "Choose a new password for your Restorio account."
+      }
+    }
+  },
+  "login": {
+    "title": "Log in",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Log in",
+    "submitting": "Logging in...",
+    "forgotPasswordLink": "Forgot your password?",
+    "genericError": "Login failed. Please check your email and password.",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordInvalid": "Password does not meet the requirements",
+      "passwordMinLength": "Password must be at least {min} characters",
+      "invalidCredentials": "Invalid email or password",
+      "accountNotActive": "This account is not active yet"
+    }
+  },
+  "forgotPassword": {
+    "title": "Reset your password",
+    "fields": {
+      "email": "Email"
+    },
+    "submit": "Send reset link",
+    "submitting": "Sending...",
+    "genericConfirm": "If this email is linked to an active account, we will send password reset instructions to it.",
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "generic": "Something went wrong. Please try again."
+    },
+    "backToLogin": "Back to log in"
+  },
+  "resetPassword": {
+    "form": {
+      "title": "Set a new password",
+      "description": "Enter your new password. After saving, sign in on the log in page.",
+      "submit": "Save password",
+      "submitting": "Saving..."
+    },
+    "fields": {
+      "password": "Password",
+      "confirmPassword": "Confirm password"
+    },
+    "invalid": {
+      "title": "Invalid or missing link",
+      "description": "The reset link is invalid or expired. Request a new one from the password reset page.",
+      "requestNew": "Request a new link"
+    },
+    "success": {
+      "title": "Password updated",
+      "description": "You can now sign in with your new password.",
+      "goToLogin": "Go to log in"
+    },
+    "errors": {
+      "expired": "The password reset link has expired.",
+      "notFound": "The password reset link is invalid.",
+      "alreadyUsed": "This link has already been used. Request a new one.",
+      "generic": "Could not change your password. Please try again."
+    }
+  },
+  "register": {
+    "title": "Register your account",
+    "success": "Account created successfully. Check your email to continue.",
+    "button": "Register",
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "terms": "I accept the terms and conditions"
+    },
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordInvalid": "Password does not meet the requirements",
+      "confirmPasswordRequired": "Confirm your password",
+      "confirmPasswordMismatch": "Passwords do not match",
+      "termsRequired": "You must accept the terms and conditions",
+      "generic": "Unable to create account. Please try again.",
+      "emailAlreadyRegistered": "This email is already registered"
+    },
+    "passwordRules": {
+      "minLength": "- At least 8 characters",
+      "lowercase": "- 1 lowercase letter",
+      "uppercase": "- 1 uppercase letter",
+      "number": "- 1 number",
+      "special": "- 1 special character"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "pricing": "Pricing",
+    "demo": "Demo",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "status": "Status",
+    "getStarted": "Get Started",
+    "login": "Log in",
+    "register": "Register",
+    "logout": "Log out",
+    "logoutLoading": "Logging out..."
+  },
+  "sidebar": {
+    "items": {
+      "adminPanel": "Admin Panel",
+      "kitchenPanel": "Kitchen Panel",
+      "waiterPanel": "Waiter Panel"
+    }
+  },
+  "chooseApp": {
+    "title": "You’re logged in",
+    "subtitle": "Choose where you want to go next.",
+    "labels": {
+      "adminPanel": "Admin Panel",
+      "kitchenPanel": "Kitchen Panel",
+      "waiterPanel": "Waiter Panel"
+    }
+  },
+  "landing": {
+    "nav": {
+      "mission": "Mission"
+    },
+    "hero": {
+      "badge": "Open source & community driven",
+      "title": "The Future of Your <br></br><accent>Restaurant</accent>",
+      "subtitle": "A complete management ecosystem that connects kitchen, service, and guests into one smooth operation. QR, KDS, and analytics in one place.",
+      "ctaTrial": "Start free",
+      "ctaDemo": "View demo",
+      "previewLabel": "Platform Preview"
+    },
+    "mission": {
+      "title": "Our mission",
+      "body": "We believe restaurant technology should fuel creativity, not create barriers. We’re building an open, intuitive system so you can focus on food and people.",
+      "goalsTitle": "Project goals",
+      "goalsBody": "Smarter staff time through intelligent order queuing and streamlined information flow.",
+      "sustainTitle": "Sustainable growth",
+      "sustainBody": "Less waste through better planning and transparent operational data."
+    },
+    "pillars": {
+      "title": "Who are we building the future for?",
+      "ownersTitle": "Owners",
+      "ownersBody": "Full control over finances, margin, and staff from anywhere in real time.",
+      "ownersB1": "Reports & KPIs",
+      "ownersB2": "Cost control",
+      "ownersB3": "Multi-location",
+      "staffTitle": "Staff",
+      "staffBody": "An intuitive interface that cuts order errors and improves kitchen communication.",
+      "staffB1": "Fast service mode",
+      "staffB2": "Split bills",
+      "staffB3": "Live notifications",
+      "guestsTitle": "Guests",
+      "guestsBody": "Modern ordering, loyalty, and easy payments at the table.",
+      "guestsB1": "QR ordering",
+      "guestsB2": "Loyalty programs",
+      "guestsB3": "Mobile payments"
+    },
+    "precision": {
+      "title": "Precision in every pixel",
+      "body": "More than tables and lists — visual tools for the floor, dish status in real time, and fast responses to guest needs.",
+      "qrTitle": "QR ordering",
+      "qrBody": "From table to kitchen in a fraction of a second.",
+      "kdsTitle": "Real-time KDS",
+      "kdsBody": "See every course progress on the kitchen display."
+    },
+    "community": {
+      "title": "Powered by the community",
+      "body": "Restorio grows as an open-core project. Join the community shaping standards for hospitality tech.",
+      "github": "GitHub",
+      "discord": "Discord",
+      "contact": "Contact us"
+    },
+    "finalCta": {
+      "title": "Ready to transform your restaurant?",
+      "subtitle": "Start a free trial and see the ecosystem in action.",
+      "primary": "Start free trial",
+      "secondary": "Learn more",
+      "note": "No card required. Cancel anytime.",
+      "loggedTitle": "Back to work",
+      "loggedSubtitle": "Pick an app from the menu or head straight to your panel."
+    }
+  },
+  "hero": {
+    "title": "The Future of Restaurant Management",
+    "subtitle": "A multi-tenant SaaS platform empowering restaurants with QR code ordering, real-time kitchen management, and comprehensive analytics.",
+    "cta": {
+      "trial": "Start Free Trial",
+      "demo": "View Demo"
+    },
+    "preview": {
+      "title": "Dashboard Preview",
+      "comingSoon": "Interactive demo coming soon"
+    }
+  },
+  "features": {
+    "title": "Everything you need to run your restaurant",
+    "subtitle": "From QR code ordering to kitchen management, Restorio provides a complete solution for modern restaurants.",
+    "waiterless": {
+      "title": "Waiterless Ordering",
+      "description": "Customers scan QR codes to browse menus and place orders directly from their phones."
+    },
+    "kitchen": {
+      "title": "Real-time Kitchen",
+      "description": "Live order updates and kitchen display system to streamline food preparation."
+    },
+    "multiLocation": {
+      "title": "Multi-Location",
+      "description": "Manage multiple restaurant locations from a single unified dashboard."
+    }
+  },
+  "cta": {
+    "title": "Ready to modernize your restaurant?",
+    "subtitle": "Join hundreds of restaurants already using Restorio to streamline their operations.",
+    "button": "Learn More About Us"
+  },
+  "activate": {
+    "loading": {
+      "title": "We are activating your account",
+      "subtitle": "This should only take a moment."
+    },
+    "success": {
+      "title": "Your account is activated.",
+      "description": "You’re now logged in. Continue to the admin panel to finish setup.",
+      "redirecting": "Redirecting you now..."
+    },
+    "alreadyActivated": {
+      "title": "This account is already activated.",
+      "description": "Continue to the admin panel."
+    },
+    "expired": {
+      "title": "Activation link has expired",
+      "genericMessage": "Activation link has expired."
+    },
+    "error": {
+      "title": "Activation failed",
+      "genericMessage": "Please request a new activation link."
+    },
+    "setPassword": {
+      "title": "Set your password",
+      "description": "Before activation, set a password for your account.",
+      "submit": "Save password and activate",
+      "submitting": "Saving..."
+    },
+    "resendSent": {
+      "title": "Check your email",
+      "description": "We’ve sent a new activation link. Use the link in the email to activate your account.",
+      "secondaryPrompt": "Didn’t get it?",
+      "resendAgain": "Resend again"
+    },
+    "buttons": {
+      "goToAdmin": "Go to admin panel",
+      "resend": "Resend activation link",
+      "resendLoading": "Sending…",
+      "resendWithCooldown": "Resend activation link ({seconds}s)"
+    },
+    "errors": {
+      "missingOrInvalidLink": "Activation link is missing or invalid.",
+      "activationExpired": "Activation link has expired.",
+      "activationGeneric": "Activation failed. Please request a new link.",
+      "resendGeneric": "Failed to resend activation email.",
+      "setPasswordGeneric": "Failed to set password. Please try again."
+    }
+  },
+  "about": {
+    "mission": {
+      "title": "Our Mission",
+      "subtitle": "Empowering small restaurants with enterprise-grade tools.",
+      "description": "We believe in the democratization of technology. For years, advanced SaaS systems were reserved for large chains. Restorio changes the game, providing innovative solutions that allow local venues to compete at the highest level without a financial barrier. We focus on the engineering of tomorrow, so the heart of your restaurant beats with the rhythm of technology."
+    },
+    "goals": {
+      "title": "Project Goals",
+      "waiterless": {
+        "title": "Waiterless Ordering",
+        "description": "Optimized self-service process for customers."
+      },
+      "multiLocation": {
+        "title": "Multi-location Support",
+        "description": "Manage your entire ecosystem from a single dashboard."
+      },
+      "secure": {
+        "title": "Secure & Scalable",
+        "description": "Infrastructure ready for your dynamic growth."
+      },
+      "costEfficient": {
+        "title": "Cost Efficient",
+        "description": "The best quality-to-price ratio on the market."
+      }
+    },
+    "openSource": {
+      "title": " Source",
+      "description": "This project is built as an academic engineer-degree project at NTNU. The codebase is open-source, and we encourage contributions from the community. By making restaurant technology accessible, we aim to support small businesses in their digital transformation."
+    },
+    "problem": {
+      "title": "Why are we doing this?",
+      "description": "Traditional restaurant operations are labor-intensive and prone to inefficiencies. Small to medium-sized restaurants often lack the resources to adopt enterprise-level technology, leading to manual order-taking, kitchen miscommunication, and limited scalability. Existing SaaS solutions are expensive and not tailored for smaller establishments.",
+      "manual": {
+        "title": "Manual Process Problem",
+        "description": "Many owners still rely on paper and memory. Order errors, kitchen chaos, and lack of transparency cost time and money that small restaurants cannot afford to lose."
+      },
+      "cost": {
+        "title": "Cost Barrier",
+        "description": "Existing Enterprise-class solutions are often unaffordable or require complex infrastructure. Restorio eliminates these obstacles, offering lightness and scalability."
+      }
+    },
+    "users": {
+      "title": "Who are we building the future for?",
+      "subtitle": "Three pillars of success for every modern restaurant.",
+      "owners": {
+        "title": "Restaurant Owners",
+        "description": "Full control over margins, inventory, and real-time sales analytics."
+      },
+      "staff": {
+        "title": "Staff & Kitchen",
+        "description": "No more unreadable tickets. A clear KDS system for smooth operation."
+      },
+      "customers": {
+        "title": "End Customers",
+        "description": "Fast ordering, secure payments, and a modern experience."
+      }
+    },
+    "engineering": {
+      "title": "Engineering Focus",
+      "frontend": "Modern React frontends with TypeScript, Vite, and Tailwind CSS.",
+      "backend": "FastAPI (Python) with JWT authentication and PostgreSQL database.",
+      "realtime": "WebSocket support for live order updates and kitchen displays.",
+      "deployment": "Dockerized microservices ready for cloud deployment."
+    }
+  },
+  "footer": {
+    "brand": "Restorio",
+    "description": "A modern, multi-tenant restaurant management platform designed for the future of dining.",
+    "sections": {
+      "product": "Product",
+      "company": "Company"
+    },
+    "navigation": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "demo": "Demo",
+      "about": "About",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "© {year} Restorio Platform.  Source Academic Project."
+  }
+}
